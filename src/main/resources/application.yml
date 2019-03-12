@@ -16,3 +16,6 @@ spring:
 mybatis:
   mapper-locations: classpath:mapping/*.xml
   type-aliases-package: com.leoli.old_classmate.mapper
+
+leoli:
+  config: elasticsearch

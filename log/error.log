@@ -1,4 +1,4 @@
-[ERROR] 2019-03-12 16:17:20,304 com.leoli.old_classmate.handler.ControllerAdviceHandler - org.springframework.jdbc.BadSqlGrammarException: 
+[ERROR] 2019-03-12 18:01:08,616 com.leoli.old_classmate.handler.ControllerAdviceHandler - org.springframework.jdbc.BadSqlGrammarException: 
 ### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: column sc.id1 does not exist
   Hint: Perhaps you meant to reference the column "sc.id".
   Position: 702
