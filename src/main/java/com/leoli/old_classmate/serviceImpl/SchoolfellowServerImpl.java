@@ -20,4 +20,9 @@ public class SchoolfellowServerImpl implements SchoolfellowServer {
     public Schoolfellow getSchoolfellowById(String id) {
         return schoolfellowMapper.getSchoolfellowById(id);
     }
+
+    @Override
+    public void saveSchoolfellowById(Schoolfellow schoolfellow) {
+        schoolfellowMapper.saveSchoolfellow(schoolfellow);
+    }
 }

@@ -6,4 +6,5 @@ import org.springframework.stereotype.Service;
 @Service
 public interface SchoolfellowServer {
     Schoolfellow getSchoolfellowById(String id);
+    void saveSchoolfellowById(Schoolfellow schoolfellow);
 }

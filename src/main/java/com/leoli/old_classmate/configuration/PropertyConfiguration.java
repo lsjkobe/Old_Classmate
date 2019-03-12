@@ -10,16 +10,29 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConfigurationProperties(prefix="leoli")
+@ConfigurationProperties(prefix = "oc")
 public class PropertyConfiguration {
 
-    String config;
+    private Config config;
 
-    public String getConfig() {
+    public Config getConfig() {
         return config;
     }
 
-    public void setConfig(String config) {
+    public void setConfig(Config config) {
         this.config = config;
     }
+
+    public static class Config{
+        private String searchType;
+
+        public String getSearchType() {
+            return searchType;
+        }
+
+        public void setSearchType(String searchType) {
+            this.searchType = searchType;
+        }
+    }
+
 }

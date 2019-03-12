@@ -9,4 +9,5 @@ import org.springframework.stereotype.Repository;
 @Mapper
 public interface SchoolfellowMapper {
     Schoolfellow getSchoolfellowById(@Param("id") String id);
+    void saveSchoolfellow(Schoolfellow schoolfellow);
 }

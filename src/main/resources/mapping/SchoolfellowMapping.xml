@@ -8,7 +8,7 @@
         <result column="sexy" jdbcType="VARCHAR" property="sexy"/>
 
         <collection property="studentInfos" column="schoolfellow_id" ofType="com.leoli.old_classmate.entity.StudentInfo"
-                    javaType="ArrayList" >
+                    javaType="ArrayList">
             <id column="studentInfoId" jdbcType="VARCHAR" property="id"/>
             <result column="grade" jdbcType="VARCHAR" property="grade"/>
             <result column="startDate" jdbcType="TIMESTAMP" property="startDate"/>
@@ -42,8 +42,13 @@
         FROM schoolfellow sf
                  LEFT JOIN student_info si ON sf.id = si.schoolfellow_id
                  LEFT JOIN school s ON si.school_id = s.id
-                 LEFT JOIN school_class sc on si.class_id = sc.id1
+                 LEFT JOIN school_class sc on si.class_id = sc.id
         WHERE sf.id = '${id}'
 
     </select>
+
+    <insert id="saveSchoolfellow" parameterType="com.leoli.old_classmate.entity.Schoolfellow">
+        INSERT INTO schoolfellow (id, name, age, sexy)
+        values ('${id}', '${name}', ${age}, '${sexy}');
+    </insert>
 </mapper>

@@ -9,9 +9,13 @@
         <module name="old_classmate" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Old_Classmate" target="11" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Old_Classmate" options="-parameters" />
       <module name="old_classmate" options="-parameters" />
     </option>
   </component>

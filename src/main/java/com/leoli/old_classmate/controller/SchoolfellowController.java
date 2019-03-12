@@ -5,10 +5,7 @@ import com.leoli.old_classmate.entity.Schoolfellow;
 import com.leoli.old_classmate.model.Result;
 import com.leoli.old_classmate.service.SchoolfellowServer;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class SchoolfellowController {
@@ -23,16 +20,20 @@ public class SchoolfellowController {
         this.propertyConfiguration = propertyConfiguration;
     }
 
-    @GetMapping("/get/schoolfellow/{id}")
+    @GetMapping("/api/v1/get/schoolfellow/{id}")
     @ResponseBody
     public Result getSchoolfellow(@PathVariable String id) {
         Result result = Result.ERROR_EMPTY;
-        propertyConfiguration.getConfig();
         Schoolfellow schoolfellow = schoolfellowServer.getSchoolfellowById(id);
         if (schoolfellow != null) {
             result = Result.OK.buildResult(schoolfellow);
         }
-
         return result;
+    }
+
+    @PostMapping("/api/v1/save/schoolfellow")
+    public Result saveSchoolfellow(@RequestBody Schoolfellow schoolfellow) {
+        schoolfellowServer.saveSchoolfellowById(schoolfellow);
+        return Result.OK;
     }
 }
