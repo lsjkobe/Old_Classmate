@@ -1,0 +1,14 @@
+[ERROR] 2019-03-12 18:01:08,616 com.leoli.old_classmate.handler.ControllerAdviceHandler - org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: column sc.id1 does not exist
+  Hint: Perhaps you meant to reference the column "sc.id".
+  Position: 702
+### The error may exist in file [D:\leo.li\workspace\leoli\old_classmate\target\classes\mapping\SchoolfellowMapping.xml]
+### The error may involve com.leoli.old_classmate.mapper.SchoolfellowMapper.getSchoolfellowById-Inline
+### The error occurred while setting parameters
+### SQL: SELECT sf.id         AS id,                sf.age        AS age,                sf.name       AS name,                sf.sexy       AS sexy,                si.id         AS studentInfoId,                si.grade      AS grade,                si.start_date AS startDate,                si.end_date   AS endDate,                s.id          AS schoolId,                s.name        AS schoolName,                sc.id         AS classId,                sc.name       AS className         FROM schoolfellow sf                  LEFT JOIN student_info si ON sf.id = si.schoolfellow_id                  LEFT JOIN school s ON si.school_id = s.id                  LEFT JOIN school_class sc on si.class_id = sc.id1         WHERE sf.id = '1'
+### Cause: org.postgresql.util.PSQLException: ERROR: column sc.id1 does not exist
+  Hint: Perhaps you meant to reference the column "sc.id".
+  Position: 702
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: ERROR: column sc.id1 does not exist
+  Hint: Perhaps you meant to reference the column "sc.id".
+  Position: 702

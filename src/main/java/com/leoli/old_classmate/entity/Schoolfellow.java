@@ -2,9 +2,9 @@ package com.leoli.old_classmate.entity;
 
 import java.util.List;
 
-public class Schoolfellow extends People {
-    String id;
-    List<StudentInfo> studentInfos;
+public class Schoolfellow extends People implements ReturnResult {
+    private String id;
+    private List<StudentInfo> studentInfos;
 
     public String getId() {
         return id;

@@ -9,8 +9,12 @@ import org.springframework.stereotype.Service;
 @Service
 public class SchoolfellowServerImpl implements SchoolfellowServer {
 
+    private final SchoolfellowMapper schoolfellowMapper;
+
     @Autowired
-    public SchoolfellowMapper schoolfellowMapper;
+    public SchoolfellowServerImpl(SchoolfellowMapper schoolfellowMapper) {
+        this.schoolfellowMapper = schoolfellowMapper;
+    }
 
     @Override
     public Schoolfellow getSchoolfellowById(String id) {
