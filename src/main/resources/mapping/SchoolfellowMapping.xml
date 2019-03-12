@@ -42,7 +42,7 @@
         FROM schoolfellow sf
                  LEFT JOIN student_info si ON sf.id = si.schoolfellow_id
                  LEFT JOIN school s ON si.school_id = s.id
-                 LEFT JOIN school_calss sc on si.class_id = sc.id
+                 LEFT JOIN school_class sc on si.class_id = sc.id1
         WHERE sf.id = '${id}'
 
     </select>

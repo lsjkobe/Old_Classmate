@@ -1,0 +1,37 @@
+[INFO ] 2019-03-12 16:17:15,030 com.leoli.old_classmate.OldClassmateApplication - Starting OldClassmateApplication on CBX-PC02 with PID 25832 (D:\leo.li\workspace\leoli\old_classmate\target\classes started by leo.li in D:\leo.li\workspace\leoli\old_classmate)
+[INFO ] 2019-03-12 16:17:15,035 com.leoli.old_classmate.OldClassmateApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-12 16:17:15,756 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$20f29405] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-03-12 16:17:15,858 org.eclipse.jetty.util.log - Logging initialized @1874ms to org.eclipse.jetty.util.log.Slf4jLog
+[INFO ] 2019-03-12 16:17:15,918 org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory - Server initialized with port: 8080
+[INFO ] 2019-03-12 16:17:15,919 org.eclipse.jetty.server.Server - jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 1.8.0_66-b18
+[INFO ] 2019-03-12 16:17:15,937 org.eclipse.jetty.server.handler.ContextHandler.application - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-03-12 16:17:15,937 org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 856 ms
+[INFO ] 2019-03-12 16:17:16,189 org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[INFO ] 2019-03-12 16:17:16,189 org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[INFO ] 2019-03-12 16:17:16,190 org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+[INFO ] 2019-03-12 16:17:16,195 org.eclipse.jetty.server.handler.ContextHandler - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@475646d4{application,/,[file:///C:/Users/leo.li/AppData/Local/Temp/jetty-docbase.5862986695082509824.8080/],AVAILABLE}
+[INFO ] 2019-03-12 16:17:16,195 org.eclipse.jetty.server.Server - Started @2212ms
+[INFO ] 2019-03-12 16:17:16,426 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-03-12 16:17:16,614 org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[INFO ] 2019-03-12 16:17:16,654 org.eclipse.jetty.server.handler.ContextHandler.application - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-03-12 16:17:16,654 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-03-12 16:17:16,658 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+[INFO ] 2019-03-12 16:17:16,673 org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@2b0b7e5a{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+[INFO ] 2019-03-12 16:17:16,675 org.springframework.boot.web.embedded.jetty.JettyWebServer - Jetty started on port(s) 8080 (http/1.1) with context path '/'
+[INFO ] 2019-03-12 16:17:16,677 com.leoli.old_classmate.OldClassmateApplication - Started OldClassmateApplication in 1.904 seconds (JVM running for 2.694)
+[INFO ] 2019-03-12 16:17:17,133 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2019-03-12 16:17:17,213 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[ERROR] 2019-03-12 16:17:20,304 com.leoli.old_classmate.handler.ControllerAdviceHandler - org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: column sc.id1 does not exist
+  Hint: Perhaps you meant to reference the column "sc.id".
+  Position: 702
+### The error may exist in file [D:\leo.li\workspace\leoli\old_classmate\target\classes\mapping\SchoolfellowMapping.xml]
+### The error may involve com.leoli.old_classmate.mapper.SchoolfellowMapper.getSchoolfellowById-Inline
+### The error occurred while setting parameters
+### SQL: SELECT sf.id         AS id,                sf.age        AS age,                sf.name       AS name,                sf.sexy       AS sexy,                si.id         AS studentInfoId,                si.grade      AS grade,                si.start_date AS startDate,                si.end_date   AS endDate,                s.id          AS schoolId,                s.name        AS schoolName,                sc.id         AS classId,                sc.name       AS className         FROM schoolfellow sf                  LEFT JOIN student_info si ON sf.id = si.schoolfellow_id                  LEFT JOIN school s ON si.school_id = s.id                  LEFT JOIN school_class sc on si.class_id = sc.id1         WHERE sf.id = '1'
+### Cause: org.postgresql.util.PSQLException: ERROR: column sc.id1 does not exist
+  Hint: Perhaps you meant to reference the column "sc.id".
+  Position: 702
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: ERROR: column sc.id1 does not exist
+  Hint: Perhaps you meant to reference the column "sc.id".
+  Position: 702
