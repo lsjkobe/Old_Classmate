@@ -2,11 +2,11 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.leoli.old_classmate.mapper.StudentInfoMapper">
     <resultMap id="StudentInfoResult" type="StudentInfo">
-        <id column="id" jdbcType="VARCHAR" property="id"/>
-        <result column="grade" jdbcType="VARCHAR" property="grade"/>
-        <result column="schoolfellowId" jdbcType="VARCHAR" property="schoolfellowId"/>
-        <result column="startDate" jdbcType="TIMESTAMP" property="startDate"/>
-        <result column="endDate" jdbcType="TIMESTAMP" property="endDate"/>
+        <id column="id" property="id"/>
+        <result column="grade" property="grade"/>
+        <result column="schoolfellowId" property="schoolfellowId"/>
+        <!--<result column="startDate" jdbcType="TIMESTAMP" property="startDate"/>-->
+        <!--<result column="endDate" jdbcType="TIMESTAMP" property="endDate"/>-->
 
         <association property="school" javaType="School" column="schoolId"
                      select="getSchool">
@@ -28,9 +28,9 @@
                si.grade           AS grade,
                si.schoolfellow_id AS schoolfellowId,
                si.class_id        AS classId,
-               si.school_id       AS schoolId,
-               si.start_date      AS startDate,
-               si.end_date        AS endDate
+               si.school_id       AS schoolId
+--                si.start_date      AS startDate,
+--                si.end_date        AS endDate
         FROM student_info si
         WHERE si.schoolfellow_id = #{id}
 

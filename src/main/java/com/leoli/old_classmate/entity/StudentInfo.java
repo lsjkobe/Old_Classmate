@@ -1,19 +1,20 @@
 package com.leoli.old_classmate.entity;
 
 
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 
 import java.io.Serializable;
-import java.sql.Date;
 import java.sql.Timestamp;
+import java.util.Date;
 
 //@Builder
+@EqualsAndHashCode(callSuper = true)
 @Data
-public class StudentInfo implements Serializable, ReturnResult {
-    private String id;
-    private Date startDate;
-    private Date endDate;
+@AllArgsConstructor
+@NoArgsConstructor
+public class StudentInfo extends BaseEntity implements Serializable, ReturnResult {
+//    private Timestamp startDate;
+//    private Timestamp endDate;
     private String grade;
     private String schoolfellowId;
     private School school;

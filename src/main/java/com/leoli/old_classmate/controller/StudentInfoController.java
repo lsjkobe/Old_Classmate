@@ -6,6 +6,7 @@ package com.leoli.old_classmate.controller;// Copyright (c) 1998-2019 Core Solut
 // CNT.5.0.1 : 2019-XX-XX, leo.li, creation
 // ============================================================================
 
+import com.leoli.old_classmate.entity.StudentInfo;
 import com.leoli.old_classmate.model.Result;
 import com.leoli.old_classmate.service.StudentInfoServer;
 import com.leoli.old_classmate.serviceImpl.StudentInfoServerImpl;

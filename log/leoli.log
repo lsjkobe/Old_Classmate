@@ -1,58 +1,38 @@
-[INFO ] 2019-03-13 16:43:23,002 com.leoli.old_classmate.OldClassmateApplication - Starting OldClassmateApplication on CBX-PC02 with PID 7316 (D:\leo.li\workspace\leoli\old_classmate\target\classes started by leo.li in D:\leo.li\workspace\leoli\old_classmate)
-[INFO ] 2019-03-13 16:43:23,007 com.leoli.old_classmate.OldClassmateApplication - No active profile set, falling back to default profiles: default
-[INFO ] 2019-03-13 16:43:23,819 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7bb0f148] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[INFO ] 2019-03-13 16:43:23,937 org.eclipse.jetty.util.log - Logging initialized @2327ms to org.eclipse.jetty.util.log.Slf4jLog
-[INFO ] 2019-03-13 16:43:24,013 org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory - Server initialized with port: 8080
-[INFO ] 2019-03-13 16:43:24,015 org.eclipse.jetty.server.Server - jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 1.8.0_66-b18
-[INFO ] 2019-03-13 16:43:24,036 org.eclipse.jetty.server.handler.ContextHandler.application - Initializing Spring embedded WebApplicationContext
-[INFO ] 2019-03-13 16:43:24,036 org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 963 ms
-[INFO ] 2019-03-13 16:43:24,338 org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
-[INFO ] 2019-03-13 16:43:24,339 org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
-[INFO ] 2019-03-13 16:43:24,339 org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
-[INFO ] 2019-03-13 16:43:24,344 org.eclipse.jetty.server.handler.ContextHandler - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@71b6d77f{application,/,[file:///C:/Users/leo.li/AppData/Local/Temp/jetty-docbase.2823563852768674729.8080/],AVAILABLE}
-[INFO ] 2019-03-13 16:43:24,345 org.eclipse.jetty.server.Server - Started @2736ms
-[INFO ] 2019-03-13 16:43:24,638 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-[INFO ] 2019-03-13 16:43:24,828 org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
-[INFO ] 2019-03-13 16:43:24,868 org.eclipse.jetty.server.handler.ContextHandler.application - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[INFO ] 2019-03-13 16:43:24,868 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-[INFO ] 2019-03-13 16:43:24,873 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
-[INFO ] 2019-03-13 16:43:24,890 org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@766a49c7{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
-[INFO ] 2019-03-13 16:43:24,892 org.springframework.boot.web.embedded.jetty.JettyWebServer - Jetty started on port(s) 8080 (http/1.1) with context path '/'
-[INFO ] 2019-03-13 16:43:24,894 com.leoli.old_classmate.OldClassmateApplication - Started OldClassmateApplication in 2.223 seconds (JVM running for 3.284)
-[INFO ] 2019-03-13 16:43:25,365 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-[INFO ] 2019-03-13 16:43:25,454 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-[DEBUG] 2019-03-13 16:43:29,543 com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos - ==>  Preparing: SELECT si.id AS id, si.grade AS grade, si.schoolfellow_id AS schoolfellowId, si.class_id AS classId, si.school_id AS schoolId, si.start_date AS startDate, si.end_date AS endDate FROM student_info si WHERE si.schoolfellow_id = ? 
-[DEBUG] 2019-03-13 16:43:29,550 com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos - ==> Parameters: 1(String)
-[TRACE] 2019-03-13 16:43:29,557 com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos - <==    Columns: id, grade, schoolfellowid, classid, schoolid, startdate, enddate
-[TRACE] 2019-03-13 16:43:29,557 com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos - <==        Row: 1, 大学, 1, 1, 1, 2012-09-01 03:20:32.04, 2016-06-01 03:20:57.108
-[DEBUG] 2019-03-13 16:43:29,560 com.leoli.old_classmate.mapper.StudentInfoMapper.getSchool - ====>  Preparing: SELECT id AS id, name AS nama FROM school WHERE id = ?; 
-[DEBUG] 2019-03-13 16:43:29,560 com.leoli.old_classmate.mapper.StudentInfoMapper.getSchool - ====> Parameters: 1(String)
-[TRACE] 2019-03-13 16:43:29,561 com.leoli.old_classmate.mapper.StudentInfoMapper.getSchool - <====    Columns: id, nama
-[TRACE] 2019-03-13 16:43:29,561 com.leoli.old_classmate.mapper.StudentInfoMapper.getSchool - <====        Row: 1, 北京理工大学珠海学院
-[DEBUG] 2019-03-13 16:43:29,562 com.leoli.old_classmate.mapper.StudentInfoMapper.getSchool - <====      Total: 1
-[DEBUG] 2019-03-13 16:43:29,562 com.leoli.old_classmate.mapper.StudentInfoMapper.getSclass - ====>  Preparing: SELECT id AS id, name AS nama FROM school_class WHERE id = ?; 
-[DEBUG] 2019-03-13 16:43:29,563 com.leoli.old_classmate.mapper.StudentInfoMapper.getSclass - ====> Parameters: 1(String)
-[TRACE] 2019-03-13 16:43:29,563 com.leoli.old_classmate.mapper.StudentInfoMapper.getSclass - <====    Columns: id, nama
-[TRACE] 2019-03-13 16:43:29,563 com.leoli.old_classmate.mapper.StudentInfoMapper.getSclass - <====        Row: 1, 软件工程2班
-[DEBUG] 2019-03-13 16:43:29,564 com.leoli.old_classmate.mapper.StudentInfoMapper.getSclass - <====      Total: 1
-[DEBUG] 2019-03-13 16:43:29,564 com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos - <==      Total: 1
-[DEBUG] 2019-03-13 16:43:31,259 com.leoli.old_classmate.mapper.SchoolfellowMapper.getSchoolfellowById - ==>  Preparing: SELECT sf.id AS id, sf.age AS age, sf.name AS name, sf.sexy AS sexy -- sf.id AS schoolfellowId FROM schoolfellow sf WHERE sf.id = ? 
-[DEBUG] 2019-03-13 16:43:31,259 com.leoli.old_classmate.mapper.SchoolfellowMapper.getSchoolfellowById - ==> Parameters: 1(String)
-[TRACE] 2019-03-13 16:43:31,260 com.leoli.old_classmate.mapper.SchoolfellowMapper.getSchoolfellowById - <==    Columns: id, age, name, sexy
-[TRACE] 2019-03-13 16:43:31,260 com.leoli.old_classmate.mapper.SchoolfellowMapper.getSchoolfellowById - <==        Row: 1, 26, 李上健, 1
-[DEBUG] 2019-03-13 16:43:31,260 com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos - ====>  Preparing: SELECT si.id AS id, si.grade AS grade, si.schoolfellow_id AS schoolfellowId, si.class_id AS classId, si.school_id AS schoolId, si.start_date AS startDate, si.end_date AS endDate FROM student_info si WHERE si.schoolfellow_id = ? 
-[DEBUG] 2019-03-13 16:43:31,261 com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos - ====> Parameters: 1(String)
-[TRACE] 2019-03-13 16:43:31,261 com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos - <====    Columns: id, grade, schoolfellowid, classid, schoolid, startdate, enddate
-[TRACE] 2019-03-13 16:43:31,261 com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos - <====        Row: 1, 大学, 1, 1, 1, 2012-09-01 03:20:32.04, 2016-06-01 03:20:57.108
-[DEBUG] 2019-03-13 16:43:31,262 com.leoli.old_classmate.mapper.StudentInfoMapper.getSchool - ======>  Preparing: SELECT id AS id, name AS nama FROM school WHERE id = ?; 
-[DEBUG] 2019-03-13 16:43:31,262 com.leoli.old_classmate.mapper.StudentInfoMapper.getSchool - ======> Parameters: 1(String)
-[TRACE] 2019-03-13 16:43:31,262 com.leoli.old_classmate.mapper.StudentInfoMapper.getSchool - <======    Columns: id, nama
-[TRACE] 2019-03-13 16:43:31,263 com.leoli.old_classmate.mapper.StudentInfoMapper.getSchool - <======        Row: 1, 北京理工大学珠海学院
-[DEBUG] 2019-03-13 16:43:31,263 com.leoli.old_classmate.mapper.StudentInfoMapper.getSchool - <======      Total: 1
-[DEBUG] 2019-03-13 16:43:31,263 com.leoli.old_classmate.mapper.StudentInfoMapper.getSclass - ======>  Preparing: SELECT id AS id, name AS nama FROM school_class WHERE id = ?; 
-[DEBUG] 2019-03-13 16:43:31,263 com.leoli.old_classmate.mapper.StudentInfoMapper.getSclass - ======> Parameters: 1(String)
-[TRACE] 2019-03-13 16:43:31,264 com.leoli.old_classmate.mapper.StudentInfoMapper.getSclass - <======    Columns: id, nama
-[TRACE] 2019-03-13 16:43:31,264 com.leoli.old_classmate.mapper.StudentInfoMapper.getSclass - <======        Row: 1, 软件工程2班
-[DEBUG] 2019-03-13 16:43:31,265 com.leoli.old_classmate.mapper.StudentInfoMapper.getSclass - <======      Total: 1
-[DEBUG] 2019-03-13 16:43:31,265 com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos - <====      Total: 1
-[DEBUG] 2019-03-13 16:43:31,265 com.leoli.old_classmate.mapper.SchoolfellowMapper.getSchoolfellowById - <==      Total: 1
+[INFO ] 2019-03-13 18:00:32,139 com.leoli.old_classmate.OldClassmateApplication - Starting OldClassmateApplication on CBX-PC02 with PID 23696 (D:\leo.li\workspace\leoli\old_classmate\target\classes started by leo.li in D:\leo.li\workspace\leoli\old_classmate)
+[INFO ] 2019-03-13 18:00:32,173 com.leoli.old_classmate.OldClassmateApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-13 18:00:32,967 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cdaab6ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-03-13 18:00:33,082 org.eclipse.jetty.util.log - Logging initialized @2150ms to org.eclipse.jetty.util.log.Slf4jLog
+[INFO ] 2019-03-13 18:00:33,143 org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory - Server initialized with port: 8080
+[INFO ] 2019-03-13 18:00:33,145 org.eclipse.jetty.server.Server - jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 1.8.0_66-b18
+[INFO ] 2019-03-13 18:00:33,164 org.eclipse.jetty.server.handler.ContextHandler.application - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-03-13 18:00:33,164 org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 964 ms
+[INFO ] 2019-03-13 18:00:33,425 org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[INFO ] 2019-03-13 18:00:33,426 org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[INFO ] 2019-03-13 18:00:33,426 org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+[INFO ] 2019-03-13 18:00:33,431 org.eclipse.jetty.server.handler.ContextHandler - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@1b5c3e5f{application,/,[file:///C:/Users/leo.li/AppData/Local/Temp/jetty-docbase.5715608388909751861.8080/],AVAILABLE}
+[INFO ] 2019-03-13 18:00:33,431 org.eclipse.jetty.server.Server - Started @2500ms
+[INFO ] 2019-03-13 18:00:33,745 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-03-13 18:00:33,954 org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[INFO ] 2019-03-13 18:00:33,995 org.eclipse.jetty.server.handler.ContextHandler.application - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-03-13 18:00:33,995 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-03-13 18:00:34,000 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+[INFO ] 2019-03-13 18:00:34,017 org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@1fd9893c{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+[INFO ] 2019-03-13 18:00:34,019 org.springframework.boot.web.embedded.jetty.JettyWebServer - Jetty started on port(s) 8080 (http/1.1) with context path '/'
+[INFO ] 2019-03-13 18:00:34,021 com.leoli.old_classmate.OldClassmateApplication - Started OldClassmateApplication in 2.256 seconds (JVM running for 3.09)
+[INFO ] 2019-03-13 18:00:34,110 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2019-03-13 18:00:34,206 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[DEBUG] 2019-03-13 18:00:35,512 com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos - ==>  Preparing: SELECT si.id AS id, si.grade AS grade, si.schoolfellow_id AS schoolfellowId, si.class_id AS classId, si.school_id AS schoolId -- si.start_date AS startDate, -- si.end_date AS endDate FROM student_info si WHERE si.schoolfellow_id = ? 
+[DEBUG] 2019-03-13 18:00:35,519 com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos - ==> Parameters: 1(String)
+[TRACE] 2019-03-13 18:00:35,526 com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos - <==    Columns: id, grade, schoolfellowid, classid, schoolid
+[TRACE] 2019-03-13 18:00:35,526 com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos - <==        Row: 1, 大学, 1, 1, 1
+[DEBUG] 2019-03-13 18:00:35,529 com.leoli.old_classmate.mapper.StudentInfoMapper.getSchool - ====>  Preparing: SELECT id AS id, name AS nama FROM school WHERE id = ?; 
+[DEBUG] 2019-03-13 18:00:35,529 com.leoli.old_classmate.mapper.StudentInfoMapper.getSchool - ====> Parameters: 1(String)
+[TRACE] 2019-03-13 18:00:35,530 com.leoli.old_classmate.mapper.StudentInfoMapper.getSchool - <====    Columns: id, nama
+[TRACE] 2019-03-13 18:00:35,530 com.leoli.old_classmate.mapper.StudentInfoMapper.getSchool - <====        Row: 1, 北京理工大学珠海学院
+[DEBUG] 2019-03-13 18:00:35,532 com.leoli.old_classmate.mapper.StudentInfoMapper.getSchool - <====      Total: 1
+[DEBUG] 2019-03-13 18:00:35,532 com.leoli.old_classmate.mapper.StudentInfoMapper.getSclass - ====>  Preparing: SELECT id AS id, name AS nama FROM school_class WHERE id = ?; 
+[DEBUG] 2019-03-13 18:00:35,532 com.leoli.old_classmate.mapper.StudentInfoMapper.getSclass - ====> Parameters: 1(String)
+[TRACE] 2019-03-13 18:00:35,533 com.leoli.old_classmate.mapper.StudentInfoMapper.getSclass - <====    Columns: id, nama
+[TRACE] 2019-03-13 18:00:35,533 com.leoli.old_classmate.mapper.StudentInfoMapper.getSclass - <====        Row: 1, 软件工程2班
+[DEBUG] 2019-03-13 18:00:35,534 com.leoli.old_classmate.mapper.StudentInfoMapper.getSclass - <====      Total: 1
+[DEBUG] 2019-03-13 18:00:35,534 com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos - <==      Total: 1
