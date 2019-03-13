@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="old_classmate">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.14">
+    <root id="1">
+      <ServerVersion>10.6</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="local_cbx_9_3">
+      <ObjectId>246207</ObjectId>
+      <StateNumber>1192721</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="3" parent="1" name="local_eci_1">
+      <ObjectId>200300</ObjectId>
+      <StateNumber>103171</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="4" parent="1" name="local_pts2_cpm1">
+      <ObjectId>441019</ObjectId>
+      <StateNumber>1460529</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="5" parent="1" name="local_pts_1">
+      <ObjectId>293240</ObjectId>
+      <StateNumber>1409005</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="6" parent="1" name="local_pts_2">
+      <ObjectId>388320</ObjectId>
+      <StateNumber>1422855</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="7" parent="1" name="local_smc_1">
+      <ObjectId>16393</ObjectId>
+      <StateNumber>558</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="8" parent="1" name="local_smc_2">
+      <ObjectId>57043</ObjectId>
+      <StateNumber>30413</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="9" parent="1" name="local_smc_3">
+      <ObjectId>80925</ObjectId>
+      <StateNumber>43542</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="10" parent="1" name="local_smc_4">
+      <ObjectId>152797</ObjectId>
+      <StateNumber>80838</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="11" parent="1" name="local_smc_5">
+      <ObjectId>268217</ObjectId>
+      <StateNumber>1291835</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="12" parent="1" name="local_smc_prod_1">
+      <ObjectId>40296</ObjectId>
+      <StateNumber>21598</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="13" parent="1" name="local_sumec_5_cpm1">
+      <ObjectId>291879</ObjectId>
+      <StateNumber>1302873</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="14" parent="1" name="old_classmate">
+      <ObjectId>441103</ObjectId>
+      <StateNumber>1460786</StateNumber>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>506</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Relations>sequence|table|441142|441144|1
+sequence|table|441150|441152|1
+</Relations>
+    </database>
+    <database id="15" parent="1" name="postgres">
+      <ObjectId>12938</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <StateNumber>554</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="16" parent="1" name="tmp_local_cpm1">
+      <ObjectId>56823</ObjectId>
+      <StateNumber>29513</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <role id="17" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="18" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="19" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="20" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="21" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="22" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <BypassRls>1</BypassRls>
+    </role>
+    <schema id="23" parent="14" name="information_schema">
+      <ObjectId>12648</ObjectId>
+      <StateNumber>354</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="24" parent="14" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <StateNumber>351</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="25" parent="14" name="pg_temp_1">
+      <ObjectId>11736</ObjectId>
+      <StateNumber>114</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="26" parent="14" name="pg_toast">
+      <ObjectId>99</ObjectId>
+      <Comment>reserved schema for TOAST tables</Comment>
+      <StateNumber>1</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="27" parent="14" name="pg_toast_temp_1">
+      <ObjectId>11737</ObjectId>
+      <StateNumber>114</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="28" parent="14" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <StateNumber>352</StateNumber>
+      <Owner>postgres</Owner>
+      <IntrospectionTimestamp>2019-03-13.14:21:25.184</IntrospectionTimestamp>
+      <IntrospectionStateNumber>1460806</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <access-method id="29" parent="14" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="30" parent="14" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="31" parent="14" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="32" parent="14" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="33" parent="14" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="34" parent="14" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <extension id="35" parent="14" name="plpgsql">
+      <ObjectId>12924</ObjectId>
+      <Comment>PL/pgSQL procedural language</Comment>
+      <StateNumber>506</StateNumber>
+      <Version>1.0</Version>
+      <SchemaName>pg_catalog</SchemaName>
+      <SchemaId>11</SchemaId>
+    </extension>
+    <sequence id="36" parent="28" name="user_id_seq">
+      <ObjectId>441142</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1460805</StateNumber>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <sequence id="37" parent="28" name="user_orders_id_seq">
+      <ObjectId>441150</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1460806</StateNumber>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <table id="38" parent="28" name="school">
+      <ObjectId>441109</ObjectId>
+      <Comment>学校</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>1460791</StateNumber>
+    </table>
+    <table id="39" parent="28" name="school_class">
+      <ObjectId>441104</ObjectId>
+      <Comment>班级</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>1460791</StateNumber>
+    </table>
+    <table id="40" parent="28" name="schoolfellow">
+      <ObjectId>441132</ObjectId>
+      <Comment>校友</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>1460796</StateNumber>
+    </table>
+    <table id="41" parent="28" name="student_info">
+      <ObjectId>441114</ObjectId>
+      <Comment>学生时期的信息</Comment>
+      <Owner>postgres</Owner>
+      <StateNumber>1460796</StateNumber>
+    </table>
+    <table id="42" parent="28" name="user">
+      <ObjectId>441144</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1460806</StateNumber>
+    </table>
+    <table id="43" parent="28" name="user_orders">
+      <ObjectId>441152</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>1460806</StateNumber>
+    </table>
+    <column id="44" parent="38" name="id">
+      <Position>1</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1460789</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="45" parent="38" name="name">
+      <Position>2</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <StateNumber>1460789</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="46" parent="38" name="school_pk">
+      <ObjectId>441112</ObjectId>
+      <StateNumber>1460789</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="47" parent="38" name="school_pk">
+      <ObjectId>441113</ObjectId>
+      <StateNumber>1460789</StateNumber>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>school_pk</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="48" parent="39" name="id">
+      <Position>1</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1460787</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="49" parent="39" name="name">
+      <Position>2</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <StateNumber>1460787</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="50" parent="39" name="school_class_pk">
+      <ObjectId>441107</ObjectId>
+      <StateNumber>1460787</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="51" parent="39" name="school_class_pk">
+      <ObjectId>441108</ObjectId>
+      <StateNumber>1460787</StateNumber>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>school_class_pk</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="52" parent="40" name="id">
+      <Position>1</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1460793</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="53" parent="40" name="name">
+      <Position>2</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <StateNumber>1460793</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="54" parent="40" name="age">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>1460793</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="55" parent="40" name="sexy">
+      <Position>4</Position>
+      <DataType>varchar(2)|0s</DataType>
+      <StateNumber>1460793</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="56" parent="40" name="schoolfellow_pk">
+      <ObjectId>441135</ObjectId>
+      <StateNumber>1460793</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="57" parent="40" name="schoolfellow_pk">
+      <ObjectId>441136</ObjectId>
+      <StateNumber>1460793</StateNumber>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>schoolfellow_pk</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="58" parent="41" name="id">
+      <Position>1</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1460791</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="59" parent="41" name="start_date">
+      <Position>2</Position>
+      <DataType>timestamp|0s</DataType>
+      <StateNumber>1460791</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="60" parent="41" name="end_date">
+      <Position>3</Position>
+      <DataType>timestamp|0s</DataType>
+      <StateNumber>1460791</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="61" parent="41" name="grade">
+      <Position>4</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <StateNumber>1460791</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="62" parent="41" name="school_id">
+      <Position>5</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <StateNumber>1460791</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="63" parent="41" name="class_id">
+      <Position>6</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <StateNumber>1460801</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="64" parent="41" name="schoolfellow_id">
+      <Position>7</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <StateNumber>1460795</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="65" parent="41" name="student_info_pk">
+      <ObjectId>441120</ObjectId>
+      <StateNumber>1460791</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="66" parent="41" name="student_info_pk">
+      <ObjectId>441121</ObjectId>
+      <StateNumber>1460791</StateNumber>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>student_info_pk</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="67" parent="41" name="student_info_school_fk">
+      <ObjectId>441122</ObjectId>
+      <StateNumber>1460791</StateNumber>
+      <ColNames>school_id</ColNames>
+      <RefTableId>441109</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>school</RefTableName>
+      <RefKeyName>school_pk</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>set-null</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <foreign-key id="68" parent="41" name="student_info_school_class_fk">
+      <ObjectId>441127</ObjectId>
+      <StateNumber>1460791</StateNumber>
+      <ColNames>class_id</ColNames>
+      <RefTableId>441104</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>school_class</RefTableName>
+      <RefKeyName>school_class_pk</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnDelete>set-null</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
+    </foreign-key>
+    <foreign-key id="69" parent="41" name="student_info_schoolfellow_id_fk">
+      <ObjectId>441137</ObjectId>
+      <StateNumber>1460796</StateNumber>
+      <ColNames>schoolfellow_id</ColNames>
+      <RefTableId>441132</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>schoolfellow</RefTableName>
+      <RefKeyName>schoolfellow_pk</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="70" parent="42" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1460805</StateNumber>
+      <DefaultExpression>nextval(&apos;user_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="71" parent="42" name="name">
+      <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1460805</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="72" parent="42" name="age">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>1460805</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="73" parent="42" name="user_pk">
+      <ObjectId>441148</ObjectId>
+      <StateNumber>1460805</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="74" parent="42" name="user_pk">
+      <ObjectId>441149</ObjectId>
+      <StateNumber>1460805</StateNumber>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>user_pk</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="75" parent="43" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1460806</StateNumber>
+      <DefaultExpression>nextval(&apos;user_orders_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="76" parent="43" name="name">
+      <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1460806</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="77" parent="43" name="user_id">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>1460806</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="78" parent="43" name="user_orders_pk">
+      <ObjectId>441156</ObjectId>
+      <StateNumber>1460806</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="79" parent="43" name="user_orders_pk">
+      <ObjectId>441157</ObjectId>
+      <StateNumber>1460806</StateNumber>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>user_orders_pk</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="80" parent="43" name="user_orders_user_id_fk">
+      <ObjectId>441158</ObjectId>
+      <StateNumber>1460806</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>441144</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user</RefTableName>
+      <RefKeyName>user_pk</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

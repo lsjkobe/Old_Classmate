@@ -15,7 +15,9 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapping/*.xml
-  type-aliases-package: com.leoli.old_classmate.mapper
+  type-aliases-package: com.leoli.old_classmate.entity
+  configuration:
+    map-underscore-to-camel-case: true
 
 oc:
   config:

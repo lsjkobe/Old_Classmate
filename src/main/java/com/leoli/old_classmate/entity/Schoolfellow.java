@@ -1,24 +1,21 @@
 package com.leoli.old_classmate.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.io.Serializable;
 import java.util.List;
 
-public class Schoolfellow extends People implements ReturnResult {
+@Data
+@Builder(toBuilder = true)
+@NoArgsConstructor
+@AllArgsConstructor
+public class Schoolfellow implements Serializable, ReturnResult {
+    String name;
+    int age;
+    String sexy; //男 1， 女 0
     private String id;
     private List<StudentInfo> studentInfos;
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public List<StudentInfo> getStudentInfos() {
-        return studentInfos;
-    }
-
-    public void setStudentInfos(List<StudentInfo> studentInfos) {
-        this.studentInfos = studentInfos;
-    }
 }

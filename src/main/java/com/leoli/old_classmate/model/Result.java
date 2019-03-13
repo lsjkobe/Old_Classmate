@@ -23,7 +23,16 @@ public enum Result {
 
     private String code;
     private String msg;
-    private ReturnResult returnResult;
+
+    public Object getData() {
+        return data;
+    }
+
+    public void setData(Object data) {
+        this.data = data;
+    }
+
+    private Object data;
 
     Result(String code, String msg) {
         this.code = code;
@@ -31,8 +40,8 @@ public enum Result {
     }
 
 
-    public Result buildResult(ReturnResult returnResult){
-        this.setReturnResult(returnResult);
+    public Result buildResult(Object data){
+        this.setData(data);
         return this;
     }
 
@@ -52,11 +61,5 @@ public enum Result {
         this.msg = msg;
     }
 //    @JsonValue 只序列化特定的field
-    public ReturnResult getReturnResult() {
-        return returnResult;
-    }
 
-    public void setReturnResult(ReturnResult returnResult) {
-        this.returnResult = returnResult;
-    }
 }

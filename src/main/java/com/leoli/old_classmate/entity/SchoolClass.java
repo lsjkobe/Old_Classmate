@@ -1,25 +1,14 @@
 package com.leoli.old_classmate.entity;
 
 
+import lombok.Builder;
+import lombok.Data;
+
 import java.io.Serializable;
 
+@Data
+@Builder
 public class SchoolClass implements Serializable {
-    String id;
-    String name;
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
+    private String id;
+    private String name;
 }

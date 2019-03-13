@@ -23,11 +23,7 @@ public class SchoolfellowControllerTest {
 
     @Test
     public void saveSchoolfellow() {
-        Schoolfellow schoolfellow = new Schoolfellow();
-        schoolfellow.setId("5");
-        schoolfellow.setAge(26);
-        schoolfellow.setName("李上健");
-        schoolfellow.setSexy("1");
-        schoolfellowServer.saveSchoolfellowById(schoolfellow);
+//        Schoolfellow.SchoolfellowBuilder builder = Schoolfellow.builder().id("5").age(26).name("leotest").sexy("1");
+//        schoolfellowServer.saveSchoolfellowById(builder.build());
     }
 }

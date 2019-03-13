@@ -1,28 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.leoli.old_classmate.mapper.SchoolfellowMapper">
-    <resultMap id="SchoolfellowResult" type="com.leoli.old_classmate.entity.Schoolfellow">
-        <id column="id" jdbcType="VARCHAR" property="id"/>
-        <result column="name" jdbcType="VARCHAR" property="name"/>
-        <result column="age" jdbcType="INTEGER" property="age"/>
-        <result column="sexy" jdbcType="VARCHAR" property="sexy"/>
+    <!--<resultMap id="SchoolfellowResult" type="com.leoli.old_classmate.entity.Schoolfellow">-->
+        <!--<id column="id" jdbcType="VARCHAR" property="id"/>-->
+        <!--<result column="name" jdbcType="VARCHAR" property="name"/>-->
+        <!--<result column="age" jdbcType="INTEGER" property="age"/>-->
+        <!--<result column="sexy" jdbcType="VARCHAR" property="sexy"/>-->
 
-        <collection property="studentInfos" column="schoolfellow_id" ofType="com.leoli.old_classmate.entity.StudentInfo"
-                    javaType="ArrayList">
-            <id column="studentInfoId" jdbcType="VARCHAR" property="id"/>
-            <result column="grade" jdbcType="VARCHAR" property="grade"/>
-            <result column="startDate" jdbcType="TIMESTAMP" property="startDate"/>
-            <result column="endDate" jdbcType="TIMESTAMP" property="endDate"/>
+        <!--<collection property="studentInfos" column="schoolfellow_id" ofType="com.leoli.old_classmate.entity.StudentInfo"-->
+                    <!--javaType="ArrayList">-->
+            <!--<id column="studentInfoId" jdbcType="VARCHAR" property="id"/>-->
+            <!--<result column="grade" jdbcType="VARCHAR" property="grade"/>-->
+            <!--<result column="startDate" jdbcType="TIMESTAMP" property="startDate"/>-->
+            <!--<result column="endDate" jdbcType="TIMESTAMP" property="endDate"/>-->
 
-            <association property="school" javaType="com.leoli.old_classmate.entity.School" column="school_id">
-                <id column="schoolId" jdbcType="VARCHAR" property="id"/>
-                <result column="schoolName" jdbcType="VARCHAR" property="name"/>
-            </association>
+            <!--<association property="school" javaType="com.leoli.old_classmate.entity.School" column="school_id">-->
+                <!--<id column="schoolId" jdbcType="VARCHAR" property="id"/>-->
+                <!--<result column="schoolName" jdbcType="VARCHAR" property="name"/>-->
+            <!--</association>-->
 
-            <association property="sClass" javaType="com.leoli.old_classmate.entity.SchoolClass" column="class_id">
-                <id column="classId" jdbcType="VARCHAR" property="id"/>
-                <result column="className" jdbcType="VARCHAR" property="name"/>
-            </association>
+            <!--<association property="sClass" javaType="com.leoli.old_classmate.entity.SchoolClass" column="class_id">-->
+                <!--<id column="classId" jdbcType="VARCHAR" property="id"/>-->
+                <!--<result column="className" jdbcType="VARCHAR" property="name"/>-->
+            <!--</association>-->
+        <!--</collection>-->
+    <!--</resultMap>-->
+    <resultMap id="SchoolfellowResult" type="Schoolfellow">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="age" property="age"/>
+        <result column="sexy" property="sexy"/>
+
+        <collection column="id" property="studentInfos"  ofType="StudentInfo"
+                    select="com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos">
+
         </collection>
     </resultMap>
 
@@ -30,24 +41,14 @@
         SELECT sf.id         AS id,
                sf.age        AS age,
                sf.name       AS name,
-               sf.sexy       AS sexy,
-               si.id         AS studentInfoId,
-               si.grade      AS grade,
-               si.start_date AS startDate,
-               si.end_date   AS endDate,
-               s.id          AS schoolId,
-               s.name        AS schoolName,
-               sc.id         AS classId,
-               sc.name       AS className
+               sf.sexy       AS sexy
+--                sf.id AS schoolfellowId
         FROM schoolfellow sf
-                 LEFT JOIN student_info si ON sf.id = si.schoolfellow_id
-                 LEFT JOIN school s ON si.school_id = s.id
-                 LEFT JOIN school_class sc on si.class_id = sc.id
-        WHERE sf.id = '${id}'
+        WHERE sf.id = #{id}
 
     </select>
 
-    <insert id="saveSchoolfellow" parameterType="com.leoli.old_classmate.entity.Schoolfellow">
+    <insert id="saveSchoolfellow" parameterType="Schoolfellow">
         INSERT INTO schoolfellow (id, name, age, sexy)
         values ('${id}', '${name}', ${age}, '${sexy}');
     </insert>

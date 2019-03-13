@@ -32,5 +32,9 @@
         <Logger name="org.springframework" level="info" additivity="false">
             <AppenderRef ref="File" />
         </Logger>
+        <logger name="com.leoli.old_classmate.mapper" level="trace" additivity="false">
+            <appender-ref ref="Console"/>
+            <appender-ref ref="File"/>
+        </logger>
     </Loggers>
 </Configuration>
