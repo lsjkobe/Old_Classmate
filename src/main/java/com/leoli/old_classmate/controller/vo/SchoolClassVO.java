@@ -7,21 +7,16 @@ package com.leoli.old_classmate.controller.vo;// Copyright (c) 1998-2019 Core So
 // ============================================================================
 
 
-import com.leoli.old_classmate.controller.ReturnResult;
 import lombok.Builder;
 import lombok.Data;
 
 import java.sql.Timestamp;
-import java.util.List;
 
 @Data
 @Builder
-public class SchoolfellowVO implements ReturnResult {
+public class SchoolClassVO {
     private String id;
     private Timestamp createdOn;
     private Timestamp updatedOn;
-    String name;
-    int age;
-    String sexy; //男 1， 女 0
-    private List<StudentInfoVO> studentInfos;
+    private String name;
 }

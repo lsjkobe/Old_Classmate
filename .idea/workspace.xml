@@ -2,14 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="330f33db-09f7-4581-af53-3a15b0a2a4da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/vo/SchoolClassVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/vo/SchoolVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/vo/StudentInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/DO/SchoolClassDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/DO/SchoolDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/DO/SchoolfellowDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/DO/StudentInfoDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/AbstractDOConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/DOConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/SchoolClassDOConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/SchoolDOConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/SchoolfellowDOConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/StudentInfoDOConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/repositoryImpl/MybatisSchoolfellowRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/repositoryImpl/MybatisStudentInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/converter/AbstractDTOConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/converter/DTOConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/converter/SchoolClassDTOConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/converter/SchoolDTOConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/converter/SchoolfellowDTOConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/converter/StudentInfoDTOConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/entity/Dto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/entity/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/entity/SchoolClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/entity/Schoolfellow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/entity/StudentInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/repository/SchoolfellowRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/repository/StudentInfoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/leoli.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/leoli.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/aop/aspect/WebExceptionAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/aop/aspect/WebExceptionAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/SchoolfellowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/SchoolfellowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/StudentInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/StudentInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/School.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/SchoolClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/SchoolClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/Schoolfellow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/Schoolfellow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/StudentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/StudentInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/vo/SchoolfellowVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/vo/SchoolfellowVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/ReturnResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/ReturnResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/SchoolClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/Schoolfellow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/StudentInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/mapper/SchoolfellowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/mapper/SchoolfellowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/mapper/StudentInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/mapper/StudentInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/Result2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/Result2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/service/SchoolfellowServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/service/SchoolfellowServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/service/StudentInfoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/service/StudentInfoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/serviceImpl/SchoolfellowServerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/serviceImpl/SchoolfellowServerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/serviceImpl/StudentInfoServerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/serviceImpl/StudentInfoServerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/SchoolfellowMapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/SchoolfellowMapping.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/StudentInfoMapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/StudentInfoMapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/leoli/old_classmate/controller/SchoolfellowControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/leoli/old_classmate/controller/SchoolfellowControllerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,6 +122,16 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="school: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="old_classmate" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="old_classmate: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="student_info: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
       <path>
@@ -95,19 +150,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/StudentInfo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/repositoryImpl/MybatisSchoolfellowRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/BaseEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="135">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,10 +162,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/ReturnResult.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/SchoolfellowDOConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="73">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/AbstractDOConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/DO/SchoolfellowDO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/SchoolfellowController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/mapper/SchoolfellowMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,22 +224,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/StudentInfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="28" column="88" lean-forward="true" selection-start-line="28" selection-start-column="88" selection-end-line="28" selection-end-column="88" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1054#1055#0" expanded="true" />
-                <element signature="e#1112#1113#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/School.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="213">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,52 +234,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/Schoolfellow.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/StudentInfoMapping.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/SchoolfellowMapping.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/aop/aspect/WebExceptionAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+            <state relative-caret-position="-85">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/SchoolClass.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/handler/ControllerAdviceHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="142" selection-start-line="142" selection-end-line="142" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="199" selection-start-line="199" selection-end-line="199" />
             </state>
           </provider>
         </entry>
@@ -207,6 +269,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -220,6 +283,7 @@
       <find>com.leoli.old_classmate.entity.</find>
       <find>startDate</find>
       <find>getStudentInfos</find>
+      <find>Schoolfellow</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -228,43 +292,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/configuration/AspectConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/handler/ControllerAdviceHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/aop/aspect/WebExceptionAspect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/serviceImpl/SchoolfellowServerImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/customConfig.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/SchoolfellowController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/configuration/PropertyConfiguration.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/vo/BaseVO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/People.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/391da68b-3b01-46a5-bdd0-7115ce15cb7e/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/Result.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/service/StudentInfoServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/serviceImpl/StudentInfoServerImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/mapper/SchoolfellowMapper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/leoli/old_classmate/controller/SchoolfellowControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/test/User_order.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/serviceImpl/UserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/test/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/leoli/old_classmate/serviceImpl/UserTestTest.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e8c4f124-7486-438f-ae17-07663ce97bb8/console.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/mapping/UserMapping.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/StudentInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/DO/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/StudentfellowConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/converter/StudentDOConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/SchoolClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/DO/StudentInfoDO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/DO/SchoolfellowDO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/DO/SchoolDO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/DO/SchoolClassDO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/vo/SchoolClassVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/vo/SchoolVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/vo/StudentInfoVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/converter/StudentDTOConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/School.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/service/SchoolfellowServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/service/StudentInfoServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/vo/SchoolfellowVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/ReturnResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/Schoolfellow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/StudentInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/SchoolfellowController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/Dto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/converter/DTOConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/converter/SchoolClassDTOConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/converter/SchoolDTOConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/converter/StudentInfoDTOConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/converter/SchoolfellowDTOConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/serviceImpl/SchoolfellowServerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/repository/SchoolfellowRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/repository/StudentInfoRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/serviceImpl/StudentInfoServerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/mapper/SchoolfellowMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/mapper/StudentInfoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/DOConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/converter/AbstractDTOConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/SchoolClassDOConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/SchoolDOConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/StudentInfoDOConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/SchoolfellowDOConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/repositoryImpl/MybatisStudentInfoRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapping/SchoolfellowMapping.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/repositoryImpl/MybatisSchoolfellowRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapping/StudentInfoMapping.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/SchoolClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/School.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/Schoolfellow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/StudentInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/StudentInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/aop/aspect/WebExceptionAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/AbstractDOConverter.java" />
       </list>
     </option>
   </component>
@@ -286,6 +364,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -326,6 +406,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
+              <item name="aspect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
               <item name="configuration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -344,7 +433,36 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="DO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="repositoryImpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
@@ -354,6 +472,25 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="converter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
@@ -422,8 +559,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -433,7 +568,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552471547173" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552556598085" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -447,6 +582,9 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.leoli.old_classmate.serviceImpl" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.leoli.old_classmate.controller" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -526,7 +664,8 @@
       <updated>1552373386837</updated>
       <workItem from="1552373391109" duration="11393000" />
       <workItem from="1552440779809" duration="3191000" />
-      <workItem from="1552445393549" duration="20998000" />
+      <workItem from="1552445393549" duration="21675000" />
+      <workItem from="1552527460927" duration="17035000" />
     </task>
     <task id="LOCAL-00001" summary="controller层统一异常处理&#10;整合mybatis,postgres和log4j2">
       <created>1552379495298</created>
@@ -542,7 +681,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552466852810</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="other">
+      <created>1552471609424</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552471609424</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -578,13 +724,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35894000" />
+    <option name="totallyTimeSpent" value="53606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2596401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -592,11 +737,11 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info id="Image Layers" order="7" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32974428" />
+      <window_info anchor="bottom" id="Duplicate detector" weight="0.32974428" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36742935" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.52893674" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36742935" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.5841184" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -610,6 +755,7 @@
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.6393001" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.32974428" />
+      <window_info anchor="bottom" id="Database Console" order="17" weight="0.32974428" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -638,7 +784,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="controller层统一异常处理&#10;整合mybatis,postgres和log4j2" />
     <MESSAGE value="mybatis 一对多关联嵌套查询" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatis 一对多关联嵌套查询" />
+    <MESSAGE value="other" />
+    <option name="LAST_COMMIT_MESSAGE" value="other" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -663,15 +810,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/SchoolfellowController.java</url>
-          <line>25</line>
+          <line>21</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/StudentInfoController.java</url>
-          <line>29</line>
+          <line>27</line>
           <properties />
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/SchoolfellowDOConverter.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/repositoryImpl/MybatisSchoolfellowRepository.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -710,60 +869,68 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/lang/annotation/Retention.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/dto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/bind/annotation/ExceptionHandler.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="85">
+          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/bind/annotation/ControllerAdvice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/bind/annotation/ControllerAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/bind/annotation/ExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/Result2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/projectlombok/lombok/1.18.6/lombok-1.18.6.jar!/lombok/Data.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/People.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/vo/BaseVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="221">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/projectlombok/lombok/1.18.6/lombok-1.18.6.jar!/lombok/Builder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/entity/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/vo/SchoolVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/vo/StudentInfoVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/service/SchoolfellowServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -772,18 +939,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/vo/SchoolfellowVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="164">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/391da68b-3b01-46a5-bdd0-7115ce15cb7e/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="249">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
           <folding>
             <element signature="e#867#868#0" expanded="true" />
             <element signature="e#894#895#0" expanded="true" />
@@ -793,203 +960,169 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/entity/School.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        <state relative-caret-position="272">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/service/SchoolfellowServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/entity/SchoolClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/ReturnResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/entity/StudentInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/entity/Schoolfellow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/entity/Dto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/service/StudentInfoServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="221">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/vo/SchoolClassVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/repository/SchoolfellowRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="125" column="10" selection-start-line="125" selection-start-column="10" selection-end-line="125" selection-end-column="10" />
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/leoli/old_classmate/OldClassmateApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/repository/StudentInfoRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/session/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="297" column="16" selection-start-line="297" selection-start-column="16" selection-end-line="297" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e8c4f124-7486-438f-ae17-07663ce97bb8/database/old_classmate/schema/public/table/user_orders">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e8c4f124-7486-438f-ae17-07663ce97bb8/database/old_classmate/schema/public/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/serviceImpl/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        <state relative-caret-position="238">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/test/User_order.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/converter/DTOConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="das://e8c4f124-7486-438f-ae17-07663ce97bb8/database/old_classmate/schema/public/table/student_info">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/test/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/DOConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="27" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/converter/AbstractDTOConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/UserMapping.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/converter/SchoolfellowDTOConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/mapper/SchoolfellowMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/leoli/old_classmate/serviceImpl/UserTestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        <state relative-caret-position="324">
+          <caret line="34" column="31" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="34" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e8c4f124-7486-438f-ae17-07663ce97bb8/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/converter/SchoolClassDTOConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/SchoolClassDOConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/converter/StudentInfoDTOConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="41" column="31" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="41" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/SchoolDOConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/DO/StudentInfoDO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/configuration/PropertyConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/SchoolfellowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="28" column="55" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/projectlombok/lombok/1.18.6/lombok-1.18.6.jar!/lombok/Builder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/serviceImpl/SchoolfellowServerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/leoli/old_classmate/controller/SchoolfellowControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" selection-start-line="15" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/handler/ControllerAdviceHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -998,121 +1131,201 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/mapper/StudentInfoMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="37" />
+        <state relative-caret-position="357">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/StudentInfoDOConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/StudentInfoMapping.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-251">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/serviceImpl/StudentInfoServerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="301">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="142" selection-start-line="142" selection-end-line="142" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="199" selection-start-line="199" selection-end-line="199" />
+        <state relative-caret-position="391">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/SchoolfellowMapping.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
+        <state relative-caret-position="357">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/ReturnResult.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/serviceImpl/SchoolfellowServerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/Schoolfellow.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="56">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/repositoryImpl/MybatisStudentInfoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="27" column="53" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1587#1588#0" expanded="true" />
+            <element signature="e#1672#1673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/serviceImpl/StudentInfoServerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/SchoolClass.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/DO/SchoolDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e8c4f124-7486-438f-ae17-07663ce97bb8/database/old_classmate/schema/public/table/school">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/DO/SchoolClassDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/model/converter/SchoolDTOConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/mapper/SchoolfellowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/StudentInfoMapping.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="47" column="27" lean-forward="true" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/handler/ControllerAdviceHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/School.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/aop/aspect/WebExceptionAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="-85">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/DO/SchoolfellowDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/BaseEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/AbstractDOConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="127">
+          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/entity/StudentInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/SchoolfellowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="56">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/repositoryImpl/MybatisSchoolfellowRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/SchoolfellowDOConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/StudentInfoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" column="88" lean-forward="true" selection-start-line="28" selection-start-column="88" selection-end-line="28" selection-end-column="88" />
+        <state relative-caret-position="213">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
           </folding>
         </state>
       </provider>

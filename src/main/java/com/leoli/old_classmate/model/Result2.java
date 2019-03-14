@@ -7,7 +7,7 @@ package com.leoli.old_classmate.model;// Copyright (c) 1998-2019 Core Solutions 
 // ============================================================================
 
 
-import com.leoli.old_classmate.entity.ReturnResult;
+import com.leoli.old_classmate.controller.ReturnResult;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.leoli.old_classmate.service;// Copyright (c) 1998-2019 Core Solutions Limited. All rights reserved.
+package com.leoli.old_classmate.model.repository;// Copyright (c) 1998-2019 Core Solutions Limited. All rights reserved.
 // ============================================================================
 // CURRENT VERSION CNT.5.0.1
 // ============================================================================
@@ -7,12 +7,12 @@ package com.leoli.old_classmate.service;// Copyright (c) 1998-2019 Core Solution
 // ============================================================================
 
 
-import com.leoli.old_classmate.controller.vo.StudentInfoVO;
-import org.springframework.stereotype.Service;
+import com.leoli.old_classmate.model.entity.School;
+import com.leoli.old_classmate.model.entity.StudentInfo;
 
 import java.util.List;
 
-@Service
-public interface StudentInfoServer {
-    List<StudentInfoVO> getStudentInfos(String schoolfellowId);
+public interface StudentInfoRepository {
+    List<StudentInfo> getStudentInfos(String id);
+    School getSchool(String id);
 }

@@ -8,8 +8,6 @@ package com.leoli.old_classmate.model;// Copyright (c) 1998-2019 Core Solutions 
 
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonValue;
-import com.leoli.old_classmate.entity.ReturnResult;
 
 //序列化整个对象
 @JsonFormat(shape = JsonFormat.Shape.OBJECT)

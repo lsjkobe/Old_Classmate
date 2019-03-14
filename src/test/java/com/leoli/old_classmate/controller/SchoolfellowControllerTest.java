@@ -1,7 +1,6 @@
 package com.leoli.old_classmate.controller;
 
 import com.leoli.old_classmate.OldClassmateApplication;
-import com.leoli.old_classmate.entity.Schoolfellow;
 import com.leoli.old_classmate.service.SchoolfellowServer;
 import org.junit.Test;
 import org.junit.runner.RunWith;

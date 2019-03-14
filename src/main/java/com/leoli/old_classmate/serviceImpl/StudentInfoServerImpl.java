@@ -7,8 +7,10 @@ package com.leoli.old_classmate.serviceImpl;// Copyright (c) 1998-2019 Core Solu
 // ============================================================================
 
 
-import com.leoli.old_classmate.entity.StudentInfo;
+import com.leoli.old_classmate.controller.vo.StudentInfoVO;
 import com.leoli.old_classmate.mapper.StudentInfoMapper;
+import com.leoli.old_classmate.model.converter.StudentInfoDTOConverter;
+import com.leoli.old_classmate.model.repository.StudentInfoRepository;
 import com.leoli.old_classmate.service.StudentInfoServer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,16 +20,18 @@ import java.util.List;
 @Service
 public class StudentInfoServerImpl implements StudentInfoServer {
 
+    private final StudentInfoRepository studentInfoRepository;
 
-    private final StudentInfoMapper studentInfoMapper;
+    private final StudentInfoDTOConverter studentInfoDTOConverter;
 
     @Autowired
-    public StudentInfoServerImpl(StudentInfoMapper studentInfoMapper) {
-        this.studentInfoMapper = studentInfoMapper;
+    public StudentInfoServerImpl(StudentInfoRepository studentInfoRepository, StudentInfoDTOConverter studentInfoDTOConverter) {
+        this.studentInfoRepository = studentInfoRepository;
+        this.studentInfoDTOConverter = studentInfoDTOConverter;
     }
 
     @Override
-    public List<StudentInfo> getStudentInfos(String schoolfellowId) {
-        return studentInfoMapper.getStudentInfos(schoolfellowId);
+    public List<StudentInfoVO> getStudentInfos(String schoolfellowId) {
+        return studentInfoDTOConverter.dtos2vos(studentInfoRepository.getStudentInfos(schoolfellowId));
     }
 }

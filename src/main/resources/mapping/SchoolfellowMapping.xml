@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.leoli.old_classmate.mapper.SchoolfellowMapper">
-    <!--<resultMap id="SchoolfellowResult" type="com.leoli.old_classmate.entity.Schoolfellow">-->
+    <!--<resultMap id="SchoolfellowResult" type="com.leoli.old_classmate.model.entity.Schoolfellow">-->
         <!--<id column="id" jdbcType="VARCHAR" property="id"/>-->
         <!--<result column="name" jdbcType="VARCHAR" property="name"/>-->
         <!--<result column="age" jdbcType="INTEGER" property="age"/>-->
         <!--<result column="sexy" jdbcType="VARCHAR" property="sexy"/>-->
 
-        <!--<collection property="studentInfos" column="schoolfellow_id" ofType="com.leoli.old_classmate.entity.StudentInfo"-->
+        <!--<collection property="studentInfos" column="schoolfellow_id" ofType="com.leoli.old_classmate.model.entity.StudentInfo"-->
                     <!--javaType="ArrayList">-->
             <!--<id column="studentInfoId" jdbcType="VARCHAR" property="id"/>-->
             <!--<result column="grade" jdbcType="VARCHAR" property="grade"/>-->
             <!--<result column="startDate" jdbcType="TIMESTAMP" property="startDate"/>-->
             <!--<result column="endDate" jdbcType="TIMESTAMP" property="endDate"/>-->
 
-            <!--<association property="school" javaType="com.leoli.old_classmate.entity.School" column="school_id">-->
+            <!--<association property="school" javaType="com.leoli.old_classmate.model.entity.School" column="school_id">-->
                 <!--<id column="schoolId" jdbcType="VARCHAR" property="id"/>-->
                 <!--<result column="schoolName" jdbcType="VARCHAR" property="name"/>-->
             <!--</association>-->
 
-            <!--<association property="sClass" javaType="com.leoli.old_classmate.entity.SchoolClass" column="class_id">-->
+            <!--<association property="sClass" javaType="com.leoli.old_classmate.model.entity.SchoolClass" column="class_id">-->
                 <!--<id column="classId" jdbcType="VARCHAR" property="id"/>-->
                 <!--<result column="className" jdbcType="VARCHAR" property="name"/>-->
             <!--</association>-->
         <!--</collection>-->
     <!--</resultMap>-->
-    <resultMap id="SchoolfellowResult" type="Schoolfellow">
+    <resultMap id="SchoolfellowResult" type="SchoolfellowDO">
         <id column="id" property="id"/>
         <result column="name" property="name"/>
         <result column="age" property="age"/>
@@ -48,7 +48,7 @@
 
     </select>
 
-    <insert id="saveSchoolfellow" parameterType="Schoolfellow">
+    <insert id="saveSchoolfellow" parameterType="SchoolfellowDO">
         INSERT INTO schoolfellow (id, name, age, sexy)
         values ('${id}', '${name}', ${age}, '${sexy}');
     </insert>

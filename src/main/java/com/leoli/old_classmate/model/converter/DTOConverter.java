@@ -1,4 +1,4 @@
-package com.leoli.old_classmate.service;// Copyright (c) 1998-2019 Core Solutions Limited. All rights reserved.
+package com.leoli.old_classmate.model.converter;// Copyright (c) 1998-2019 Core Solutions Limited. All rights reserved.
 // ============================================================================
 // CURRENT VERSION CNT.5.0.1
 // ============================================================================
@@ -6,13 +6,12 @@ package com.leoli.old_classmate.service;// Copyright (c) 1998-2019 Core Solution
 // CNT.5.0.1 : 2019-XX-XX, leo.li, creation
 // ============================================================================
 
-
-import com.leoli.old_classmate.controller.vo.StudentInfoVO;
-import org.springframework.stereotype.Service;
-
 import java.util.List;
 
-@Service
-public interface StudentInfoServer {
-    List<StudentInfoVO> getStudentInfos(String schoolfellowId);
+public interface DTOConverter <D, R> {
+    D vo2dto(R r);
+    List<D> vos2dtos(List<R> rs);
+
+    R dto2vo(D d);
+    List<R> dtos2vos(List<D> ds);
 }

@@ -6,22 +6,21 @@ package com.leoli.old_classmate.controller.vo;// Copyright (c) 1998-2019 Core So
 // CNT.5.0.1 : 2019-XX-XX, leo.li, creation
 // ============================================================================
 
-
-import com.leoli.old_classmate.controller.ReturnResult;
 import lombok.Builder;
 import lombok.Data;
 
 import java.sql.Timestamp;
-import java.util.List;
 
-@Data
 @Builder
-public class SchoolfellowVO implements ReturnResult {
+@Data
+public class StudentInfoVO {
     private String id;
     private Timestamp createdOn;
     private Timestamp updatedOn;
-    String name;
-    int age;
-    String sexy; //男 1， 女 0
-    private List<StudentInfoVO> studentInfos;
+    private Timestamp startDate;
+    private Timestamp endDate;
+    private String grade;
+    private String schoolfellowId;
+    private SchoolVO school;
+    private SchoolClassVO sClass;
 }

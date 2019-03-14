@@ -37,7 +37,6 @@ public class WebExceptionAspect {
     private void beforeProcess(JoinPoint joinPoint) {
         String className = joinPoint.getTarget().getClass().getName();
         String methodName = joinPoint.getSignature().getName();
-        //在项目中最好记录当前操作的时间和用户
         LOGGER.debug("操作所在类 ：" + className);
         LOGGER.debug("操作所在方法 ：" + methodName);
     }
