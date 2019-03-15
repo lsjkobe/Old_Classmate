@@ -2,7 +2,6 @@ package com.leoli.old_classmate.serviceImpl;
 
 import com.leoli.old_classmate.controller.vo.SchoolfellowVO;
 import com.leoli.old_classmate.model.entity.Schoolfellow;
-import com.leoli.old_classmate.mapper.SchoolfellowMapper;
 import com.leoli.old_classmate.model.converter.SchoolfellowDTOConverter;
 import com.leoli.old_classmate.model.repository.SchoolfellowRepository;
 import com.leoli.old_classmate.service.SchoolfellowServer;
@@ -16,6 +15,7 @@ public class SchoolfellowServerImpl implements SchoolfellowServer {
     private final SchoolfellowDTOConverter schoolfellowDTOConverter;
 
     private final SchoolfellowRepository schoolfellowRepository;
+
 
     @Autowired
     public SchoolfellowServerImpl(SchoolfellowDTOConverter schoolfellowDTOConverter, SchoolfellowRepository schoolfellowRepository) {
@@ -32,6 +32,5 @@ public class SchoolfellowServerImpl implements SchoolfellowServer {
     public void saveSchoolfellowById(SchoolfellowVO schoolfellowVO) {
         Schoolfellow schoolfellow = schoolfellowDTOConverter.vo2dto(schoolfellowVO);
         schoolfellowRepository.saveSchoolfellow(schoolfellow);
-//        schoolfellowMapper.saveSchoolfellow(schoolfellowVO);
     }
 }

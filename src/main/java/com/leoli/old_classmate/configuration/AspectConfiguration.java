@@ -7,6 +7,7 @@ package com.leoli.old_classmate.configuration;// Copyright (c) 1998-2019 Core So
 // ============================================================================
 
 
+import com.leoli.old_classmate.aop.aspect.CacheExceptionAspect;
 import com.leoli.old_classmate.aop.aspect.WebExceptionAspect;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,4 +19,9 @@ public class AspectConfiguration {
 //    public WebExceptionAspect webExceptionAspect(){
 //        return new WebExceptionAspect();
 //    }
+
+    @Bean
+    public CacheExceptionAspect cacheExceptionAspect(){
+        return new CacheExceptionAspect();
+    }
 }
