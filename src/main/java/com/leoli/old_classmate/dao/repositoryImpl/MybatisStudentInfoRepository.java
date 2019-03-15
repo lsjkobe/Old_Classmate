@@ -7,6 +7,8 @@ package com.leoli.old_classmate.dao.repositoryImpl;// Copyright (c) 1998-2019 Co
 // ============================================================================
 
 
+import com.leoli.old_classmate.common.utils.RedisUtil;
+import com.leoli.old_classmate.dao.DO.StudentInfoDO;
 import com.leoli.old_classmate.dao.converter.SchoolDOConverter;
 import com.leoli.old_classmate.dao.converter.StudentInfoDOConverter;
 import com.leoli.old_classmate.mapper.StudentInfoMapper;
@@ -27,16 +29,30 @@ public class MybatisStudentInfoRepository implements StudentInfoRepository {
 
     private final SchoolDOConverter schoolDOConverter;
 
+    private final RedisUtil redisUtil;
+
+    private final String CUR_MODULE = "Schoolfellow";
+
     @Autowired
-    public MybatisStudentInfoRepository(StudentInfoMapper studentInfoMapper, StudentInfoDOConverter studentInfoDOConverter, SchoolDOConverter schoolDOConverter) {
+    public MybatisStudentInfoRepository(StudentInfoMapper studentInfoMapper, StudentInfoDOConverter studentInfoDOConverter, SchoolDOConverter schoolDOConverter, RedisUtil redisUtil) {
         this.studentInfoMapper = studentInfoMapper;
         this.studentInfoDOConverter = studentInfoDOConverter;
         this.schoolDOConverter = schoolDOConverter;
+        this.redisUtil = redisUtil;
     }
 
     @Override
-    public List<StudentInfo> getStudentInfos(String id) {
-        return studentInfoDOConverter.dos2dtos(studentInfoMapper.getStudentInfos(id));
+    public List<StudentInfo> getStudentInfos(String schoolfellowId) {
+        Object o = redisUtil.get(redisUtil.converModuleAndID2Key(CUR_MODULE,schoolfellowId));
+        List<Object> os = redisUtil.lGetAll(redisUtil.converModuleAndID2Key(CUR_MODULE,schoolfellowId));
+
+        List<StudentInfoDO> studentInfoDOS;
+        if(o == null){
+            studentInfoDOS = studentInfoMapper.getStudentInfos(schoolfellowId);
+        }else {
+            studentInfoDOS = (List)os;
+        }
+        return studentInfoDOConverter.dos2dtos(studentInfoDOS);
     }
 
     @Override

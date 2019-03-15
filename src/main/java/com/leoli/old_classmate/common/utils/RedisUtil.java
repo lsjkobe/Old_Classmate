@@ -387,6 +387,15 @@ public class RedisUtil {
     // list
 
 
+    public List<Object> lGetAll(String key){
+        try {
+            return redisTemplate.opsForList().range(key, 0, -1);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
     /**
      * 获取list缓存的内容
      * @param key 键

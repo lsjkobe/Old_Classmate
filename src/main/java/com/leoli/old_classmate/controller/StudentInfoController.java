@@ -23,8 +23,7 @@ public class StudentInfoController {
         this.studentInfoServer = studentInfoServer;
     }
 
-    @GetMapping("/" +
-            "/v1/get/studentInfo/{schoolfellowId}")
+    @GetMapping("/api/v1/get/studentInfo/{schoolfellowId}")
     public Result getStudentInfo(@PathVariable("schoolfellowId") String schoolfellowId){
         return Result.OK.buildResult(studentInfoServer.getStudentInfos(schoolfellowId));
     }
