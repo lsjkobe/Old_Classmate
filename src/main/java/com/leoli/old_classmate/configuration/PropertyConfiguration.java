@@ -14,6 +14,7 @@ import org.springframework.stereotype.Component;
 public class PropertyConfiguration {
 
     private Config config;
+    private Security security;
 
     public Config getConfig() {
         return config;
@@ -21,6 +22,14 @@ public class PropertyConfiguration {
 
     public void setConfig(Config config) {
         this.config = config;
+    }
+
+    public Security getSecurity() {
+        return security;
+    }
+
+    public void setSecurity(Security security) {
+        this.security = security;
     }
 
     public static class Config{
@@ -32,6 +41,18 @@ public class PropertyConfiguration {
 
         public void setSearchType(String searchType) {
             this.searchType = searchType;
+        }
+    }
+
+    public static class Security{
+        private String enrypt;
+
+        public String getEnrypt() {
+            return enrypt;
+        }
+
+        public void setEnrypt(String enrypt) {
+            this.enrypt = enrypt;
         }
     }
 

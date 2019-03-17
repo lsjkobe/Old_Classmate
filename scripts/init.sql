@@ -59,3 +59,21 @@ alter table student_info
 		foreign key (schoolfellow_id) references schoolfellow;
 
 alter table student_info rename column school_class_id to class_id;
+
+
+alter table schoolfellow
+	add password varchar(100);
+
+alter table schoolfellow
+	add enabled boolean;
+
+
+create table authorities
+(
+	id serial
+		constraint authorities_pk
+			primary key,
+	username varchar(50),
+	authority varchar(10)
+);
+

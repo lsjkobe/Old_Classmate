@@ -6,15 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Oauth2Server" />
         <module name="old_classmate" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="old_classmate" target="8" />
+      <module name="demo" target="1.8" />
+      <module name="Oauth2Server" target="11" />
+      <module name="old_classmate" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Oauth2Server" options="-parameters" />
+      <module name="demo" options="-parameters" />
       <module name="old_classmate" options="-parameters" />
     </option>
   </component>
