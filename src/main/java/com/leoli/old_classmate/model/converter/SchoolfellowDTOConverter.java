@@ -31,6 +31,9 @@ public class SchoolfellowDTOConverter extends AbstractDTOConverter<Schoolfellow,
                 .age(schoolfellowVO.getAge())
                 .name(schoolfellowVO.getName())
                 .sexy(schoolfellowVO.getSexy())
+                .password(schoolfellowVO.getPassword())
+                .createdOn(schoolfellowVO.getCreatedOn())
+                .updatedOn(schoolfellowVO.getUpdatedOn())
                 .studentInfos(studentInfoDTOConverter.vos2dtos(schoolfellowVO.getStudentInfos()));
         return builder.build();
     }
@@ -44,6 +47,8 @@ public class SchoolfellowDTOConverter extends AbstractDTOConverter<Schoolfellow,
                 .age(schoolfellow.getAge())
                 .name(schoolfellow.getName())
                 .sexy(schoolfellow.getSexy())
+                .createdOn(schoolfellow.getCreatedOn())
+                .updatedOn(schoolfellow.getUpdatedOn())
                 .studentInfos(studentInfoDTOConverter.dtos2vos(schoolfellow.getStudentInfos()));
         return builder.build();
     }

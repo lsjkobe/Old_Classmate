@@ -49,7 +49,7 @@
     </select>
 
     <insert id="saveSchoolfellow" parameterType="SchoolfellowDO">
-        INSERT INTO schoolfellow (id, name, age, sexy)
-        values ('${id}', '${name}', ${age}, '${sexy}');
+        INSERT INTO schoolfellow (id, name, age, sexy, password)
+        values ('${id}', '${name}', ${age}, '${sexy}', '${password}');
     </insert>
 </mapper>

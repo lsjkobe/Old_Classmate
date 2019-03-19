@@ -1,43 +1,61 @@
-[INFO ] 2019-03-18 00:28:59,493 com.leoli.old_classmate.OldClassmateApplication - Starting OldClassmateApplication on DESKTOP-19O66J8 with PID 7764 (E:\workspace2\Old_Classmate\target\classes started by leols in E:\workspace2\Old_Classmate)
-[INFO ] 2019-03-18 00:28:59,503 com.leoli.old_classmate.OldClassmateApplication - No active profile set, falling back to default profiles: default
-[INFO ] 2019-03-18 00:29:00,495 org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-[INFO ] 2019-03-18 00:29:00,500 org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-[INFO ] 2019-03-18 00:29:00,547 org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
-[INFO ] 2019-03-18 00:29:00,984 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fe7e9d8c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[INFO ] 2019-03-18 00:29:01,224 org.eclipse.jetty.util.log - Logging initialized @4453ms to org.eclipse.jetty.util.log.Slf4jLog
-[INFO ] 2019-03-18 00:29:01,369 org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory - Server initialized with port: 8080
-[INFO ] 2019-03-18 00:29:01,371 org.eclipse.jetty.server.Server - jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 11.0.2+9-LTS
-[INFO ] 2019-03-18 00:29:01,400 org.eclipse.jetty.server.handler.ContextHandler.application - Initializing Spring embedded WebApplicationContext
-[INFO ] 2019-03-18 00:29:01,401 org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1842 ms
-[INFO ] 2019-03-18 00:29:02,045 org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
-[INFO ] 2019-03-18 00:29:02,045 org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
-[INFO ] 2019-03-18 00:29:02,046 org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
-[INFO ] 2019-03-18 00:29:02,055 org.eclipse.jetty.server.handler.ContextHandler - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@77a2688d{application,/,[org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory$LoaderHidingResource@77c692b4],AVAILABLE}
-[INFO ] 2019-03-18 00:29:02,055 org.eclipse.jetty.server.Server - Started @5286ms
-[INFO ] 2019-03-18 00:29:02,642 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-[INFO ] 2019-03-18 00:29:03,010 org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
+[INFO ] 2019-03-20 00:37:30,373 com.leoli.old_classmate.OldClassmateApplication - Starting OldClassmateApplication on DESKTOP-19O66J8 with PID 7064 (E:\workspace2\Old_Classmate\target\classes started by leols in E:\workspace2\Old_Classmate)
+[INFO ] 2019-03-20 00:37:30,378 com.leoli.old_classmate.OldClassmateApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-20 00:37:31,356 org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2019-03-20 00:37:31,359 org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-03-20 00:37:31,405 org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+[INFO ] 2019-03-20 00:37:31,800 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7041984b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-03-20 00:37:32,016 org.eclipse.jetty.util.log - Logging initialized @4622ms to org.eclipse.jetty.util.log.Slf4jLog
+[INFO ] 2019-03-20 00:37:32,153 org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory - Server initialized with port: 8080
+[INFO ] 2019-03-20 00:37:32,155 org.eclipse.jetty.server.Server - jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 11.0.2+9-LTS
+[INFO ] 2019-03-20 00:37:32,183 org.eclipse.jetty.server.handler.ContextHandler.application - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-03-20 00:37:32,183 org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1746 ms
+[INFO ] 2019-03-20 00:37:32,738 org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[INFO ] 2019-03-20 00:37:32,739 org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[INFO ] 2019-03-20 00:37:32,740 org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+[INFO ] 2019-03-20 00:37:32,746 org.eclipse.jetty.server.handler.ContextHandler - Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@7848321e{application,/,[org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory$LoaderHidingResource@f4f843f],AVAILABLE}
+[INFO ] 2019-03-20 00:37:32,747 org.eclipse.jetty.server.Server - Started @5353ms
+[INFO ] 2019-03-20 00:37:33,344 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-03-20 00:37:33,661 org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
 
-Using generated security password: 003f3832-7c37-4116-b42e-92503df6ffa0
+Using generated security password: 3f2b7192-05f5-4253-a517-3af6f49ccbc7
 
-[INFO ] 2019-03-18 00:29:03,240 org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59cde35, org.springframework.security.web.context.SecurityContextPersistenceFilter@64f33dee, org.springframework.security.web.header.HeaderWriterFilter@31de27c, org.springframework.security.web.authentication.logout.LogoutFilter@2459333a, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@6c8ad6d7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@10e4ee33, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7cbede2b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@43de9fc9, org.springframework.security.web.session.SessionManagementFilter@32d8710a, org.springframework.security.web.access.ExceptionTranslationFilter@4ca4f762, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6f67ece5]
-[INFO ] 2019-03-18 00:29:03,372 org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
-[INFO ] 2019-03-18 00:29:03,473 org.eclipse.jetty.server.handler.ContextHandler.application - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[INFO ] 2019-03-18 00:29:03,473 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-[INFO ] 2019-03-18 00:29:03,482 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
-[INFO ] 2019-03-18 00:29:03,511 org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@457b8fc3{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
-[INFO ] 2019-03-18 00:29:03,515 org.springframework.boot.web.embedded.jetty.JettyWebServer - Jetty started on port(s) 8080 (http/1.1) with context path '/'
-[INFO ] 2019-03-18 00:29:03,519 com.leoli.old_classmate.OldClassmateApplication - Started OldClassmateApplication in 4.461 seconds (JVM running for 6.748)
-[INFO ] 2019-03-18 00:29:04,709 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-[INFO ] 2019-03-18 00:29:05,098 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-[INFO ] 2019-03-18 00:29:05,234 io.lettuce.core.EpollProvider - Starting without optional epoll library
-[INFO ] 2019-03-18 00:29:05,236 io.lettuce.core.KqueueProvider - Starting without optional kqueue library
-[WARN ] 2019-03-18 00:31:32,011 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m26s812ms383µs74ns).
-[WARN ] 2019-03-18 00:34:56,929 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m40s150ms229µs300ns).
-[WARN ] 2019-03-18 00:35:49,788 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s859ms560µs922ns).
-[INFO ] 2019-03-18 00:38:57,810 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-[INFO ] 2019-03-18 00:38:58,938 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-[INFO ] 2019-03-18 00:38:58,944 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-[INFO ] 2019-03-18 00:38:58,955 org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@457b8fc3{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
-[INFO ] 2019-03-18 00:38:58,956 org.eclipse.jetty.server.session - node0 Stopped scavenging
-[INFO ] 2019-03-18 00:38:58,957 org.eclipse.jetty.server.handler.ContextHandler.application - Destroying Spring FrameworkServlet 'dispatcherServlet'
-[INFO ] 2019-03-18 00:38:58,959 org.eclipse.jetty.server.handler.ContextHandler - Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@77a2688d{application,/,[org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory$LoaderHidingResource@77c692b4],UNAVAILABLE}
+[INFO ] 2019-03-20 00:37:33,889 org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2553dcc0, org.springframework.security.web.context.SecurityContextPersistenceFilter@62f7d7bd, org.springframework.security.web.header.HeaderWriterFilter@6f7b8ae1, org.springframework.security.web.authentication.logout.LogoutFilter@105dc246, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@18dafd3b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@de63949, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17477bbb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e91cf69, org.springframework.security.web.session.SessionManagementFilter@575c23f1, org.springframework.security.web.access.ExceptionTranslationFilter@48144f1a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@24f5e9e8]
+[INFO ] 2019-03-20 00:37:34,005 org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[INFO ] 2019-03-20 00:37:34,097 org.eclipse.jetty.server.handler.ContextHandler.application - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-03-20 00:37:34,097 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-03-20 00:37:34,104 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+[INFO ] 2019-03-20 00:37:34,132 org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@6963b0bd{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+[INFO ] 2019-03-20 00:37:34,135 org.springframework.boot.web.embedded.jetty.JettyWebServer - Jetty started on port(s) 8080 (http/1.1) with context path '/'
+[INFO ] 2019-03-20 00:37:34,138 com.leoli.old_classmate.OldClassmateApplication - Started OldClassmateApplication in 4.265 seconds (JVM running for 6.745)
+[INFO ] 2019-03-20 00:37:35,383 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2019-03-20 00:37:35,730 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2019-03-20 00:37:35,849 io.lettuce.core.EpollProvider - Starting without optional epoll library
+[INFO ] 2019-03-20 00:37:35,850 io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+[DEBUG] 2019-03-20 00:38:15,140 com.leoli.old_classmate.mapper.SchoolfellowMapper.saveSchoolfellow - ==>  Preparing: INSERT INTO schoolfellow (id, name, age, sexy, password) values ('b56b04c8-a396-4010-a218-d13fc49a0997', 'leo4', 0, '', '{bcrypt}$2a$10$eeXFeZX8.MdN2OZA3s1vjOU0rgDlJcmj0jjek7Aeey./JMtW19ZOG'); 
+[DEBUG] 2019-03-20 00:38:15,577 com.leoli.old_classmate.mapper.SchoolfellowMapper.saveSchoolfellow - ==> Parameters: 
+[DEBUG] 2019-03-20 00:38:15,590 com.leoli.old_classmate.mapper.SchoolfellowMapper.saveSchoolfellow - <==    Updates: 1
+[DEBUG] 2019-03-20 00:38:20,548 com.leoli.old_classmate.mapper.AuthMapper.saveAuth - ==>  Preparing: INSERT INTO authorities (id, username, authority) values ('949fc5b5-ccdd-45e3-9178-9fb29c96af0d','leo4', 'USER'); 
+[DEBUG] 2019-03-20 00:38:20,551 com.leoli.old_classmate.mapper.AuthMapper.saveAuth - ==> Parameters: 
+[DEBUG] 2019-03-20 00:38:20,557 com.leoli.old_classmate.mapper.AuthMapper.saveAuth - <==    Updates: 1
+[WARN ] 2019-03-20 00:40:26,464 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s472ms415µs644ns).
+[DEBUG] 2019-03-20 00:40:51,872 com.leoli.old_classmate.mapper.SchoolfellowMapper.getSchoolfellowById - ==>  Preparing: SELECT sf.id AS id, sf.age AS age, sf.name AS name, sf.sexy AS sexy -- sf.id AS schoolfellowId FROM schoolfellow sf WHERE sf.id = ? 
+[DEBUG] 2019-03-20 00:40:51,876 com.leoli.old_classmate.mapper.SchoolfellowMapper.getSchoolfellowById - ==> Parameters: 1(String)
+[TRACE] 2019-03-20 00:40:52,278 com.leoli.old_classmate.mapper.SchoolfellowMapper.getSchoolfellowById - <==    Columns: id, age, name, sexy
+[TRACE] 2019-03-20 00:40:52,280 com.leoli.old_classmate.mapper.SchoolfellowMapper.getSchoolfellowById - <==        Row: 1, null, leo1, 1
+[DEBUG] 2019-03-20 00:40:52,296 com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos - ====>  Preparing: SELECT si.id AS id, si.grade AS grade, si.schoolfellow_id AS schoolfellowId, si.class_id AS classId, si.school_id AS schoolId, si.start_date AS startDate, si.end_date AS endDate FROM student_info si WHERE si.schoolfellow_id = ? 
+[DEBUG] 2019-03-20 00:40:52,302 com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos - ====> Parameters: 1(String)
+[TRACE] 2019-03-20 00:40:52,307 com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos - <====    Columns: id, grade, schoolfellowid, classid, schoolid, startdate, enddate
+[TRACE] 2019-03-20 00:40:52,308 com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos - <====        Row: 1, 大学, 1, 1, 1, 2012-09-01 13:19:19.15, 2016-06-15 14:19:35.904
+[DEBUG] 2019-03-20 00:40:52,324 com.leoli.old_classmate.mapper.StudentInfoMapper.getSchool - ======>  Preparing: SELECT id AS id, name AS name FROM school WHERE id = ?; 
+[DEBUG] 2019-03-20 00:40:52,327 com.leoli.old_classmate.mapper.StudentInfoMapper.getSchool - ======> Parameters: 1(String)
+[TRACE] 2019-03-20 00:40:52,331 com.leoli.old_classmate.mapper.StudentInfoMapper.getSchool - <======    Columns: id, name
+[TRACE] 2019-03-20 00:40:52,332 com.leoli.old_classmate.mapper.StudentInfoMapper.getSchool - <======        Row: 1, 北京理工大学珠海学院
+[DEBUG] 2019-03-20 00:40:52,338 com.leoli.old_classmate.mapper.StudentInfoMapper.getSchool - <======      Total: 1
+[DEBUG] 2019-03-20 00:40:52,341 com.leoli.old_classmate.mapper.StudentInfoMapper.getSclass - ======>  Preparing: SELECT id AS id, name AS name FROM school_class WHERE id = ?; 
+[DEBUG] 2019-03-20 00:40:52,343 com.leoli.old_classmate.mapper.StudentInfoMapper.getSclass - ======> Parameters: 1(String)
+[TRACE] 2019-03-20 00:40:52,347 com.leoli.old_classmate.mapper.StudentInfoMapper.getSclass - <======    Columns: id, name
+[TRACE] 2019-03-20 00:40:52,349 com.leoli.old_classmate.mapper.StudentInfoMapper.getSclass - <======        Row: 1, 软件工程2班
+[DEBUG] 2019-03-20 00:40:52,354 com.leoli.old_classmate.mapper.StudentInfoMapper.getSclass - <======      Total: 1
+[DEBUG] 2019-03-20 00:40:52,356 com.leoli.old_classmate.mapper.StudentInfoMapper.getStudentInfos - <====      Total: 1
+[DEBUG] 2019-03-20 00:40:52,357 com.leoli.old_classmate.mapper.SchoolfellowMapper.getSchoolfellowById - <==      Total: 1
+[WARN ] 2019-03-20 00:41:58,423 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s258ms949µs414ns).

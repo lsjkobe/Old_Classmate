@@ -17,6 +17,7 @@ public class SchoolfellowDO {
     private String id;
     private Timestamp createdOn;
     private Timestamp updatedOn;
+    String password;
     String name;
     int age;
     String sexy; //男 1， 女 0

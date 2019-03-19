@@ -21,7 +21,9 @@ public class SchoolfellowVO implements ReturnResult {
     private Timestamp createdOn;
     private Timestamp updatedOn;
     String name;
+    String password;
     int age;
     String sexy; //男 1， 女 0
+    boolean enable;
     private List<StudentInfoVO> studentInfos;
 }

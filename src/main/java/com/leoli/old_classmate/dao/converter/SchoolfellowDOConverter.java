@@ -31,6 +31,7 @@ public class SchoolfellowDOConverter extends AbstractDOConverter<Schoolfellow, S
         schoolfellowDO.setId(schoolfellow.getId());
         schoolfellowDO.setAge(schoolfellow.getAge());
         schoolfellowDO.setName(schoolfellow.getName());
+        schoolfellowDO.setPassword(schoolfellow.getPassword());
         schoolfellowDO.setSexy(schoolfellow.getSexy());
         schoolfellowDO.setCreatedOn(schoolfellow.getCreatedOn());
         schoolfellowDO.setUpdatedOn(schoolfellow.getUpdatedOn());
@@ -46,6 +47,8 @@ public class SchoolfellowDOConverter extends AbstractDOConverter<Schoolfellow, S
                 .age(schoolfellowDO.getAge())
                 .name(schoolfellowDO.getName())
                 .sexy(schoolfellowDO.getSexy())
+                .createdOn(schoolfellowDO.getCreatedOn())
+                .updatedOn(schoolfellowDO.getUpdatedOn())
                 .studentInfos(studentInfoDOConverter.dos2dtos(schoolfellowDO.getStudentInfos()));
         return builder.build();
     }

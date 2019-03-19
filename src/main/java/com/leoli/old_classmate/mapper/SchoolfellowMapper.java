@@ -1,6 +1,5 @@
 package com.leoli.old_classmate.mapper;
 
-import com.leoli.old_classmate.controller.vo.SchoolfellowVO;
 import com.leoli.old_classmate.dao.DO.SchoolfellowDO;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;

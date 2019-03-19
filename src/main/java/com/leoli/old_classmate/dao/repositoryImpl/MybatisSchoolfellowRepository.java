@@ -8,9 +8,13 @@ package com.leoli.old_classmate.dao.repositoryImpl;// Copyright (c) 1998-2019 Co
 
 
 import com.leoli.old_classmate.common.utils.RedisUtil;
+import com.leoli.old_classmate.dao.DO.AuthDO;
 import com.leoli.old_classmate.dao.DO.SchoolfellowDO;
+import com.leoli.old_classmate.dao.converter.AuthDOConverter;
 import com.leoli.old_classmate.dao.converter.SchoolfellowDOConverter;
+import com.leoli.old_classmate.mapper.AuthMapper;
 import com.leoli.old_classmate.mapper.SchoolfellowMapper;
+import com.leoli.old_classmate.model.entity.Auth;
 import com.leoli.old_classmate.model.entity.Schoolfellow;
 import com.leoli.old_classmate.model.repository.SchoolfellowRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +28,11 @@ public class MybatisSchoolfellowRepository implements SchoolfellowRepository {
     private final SchoolfellowMapper schoolfellowMapper;
 
     private final SchoolfellowDOConverter schoolfellowDOConverter;
+
+    @Autowired
+    AuthDOConverter authDOConverter;
+    @Autowired
+    AuthMapper authMapper;
 
     private final RedisUtil redisUtil;
 
@@ -40,7 +49,7 @@ public class MybatisSchoolfellowRepository implements SchoolfellowRepository {
         SchoolfellowDO schoolfellowDO;
         if (o == null) {
             schoolfellowDO = schoolfellowMapper.getSchoolfellowById(id);
-            redisUtil.set(id, schoolfellowDO);
+            redisUtil.set(redisUtil.converModuleAndID2Key(CUR_MODULE,id), schoolfellowDO);
         } else {
             schoolfellowDO = (SchoolfellowDO) o;
         }
@@ -52,6 +61,13 @@ public class MybatisSchoolfellowRepository implements SchoolfellowRepository {
         SchoolfellowDO schoolfellowDO = schoolfellowDOConverter.dto2do(schoolfellow);
         schoolfellowMapper.saveSchoolfellow(schoolfellowDO);
         redisUtil.set(redisUtil.converModuleAndID2Key(CUR_MODULE,schoolfellowDO.getId()), schoolfellowDO);
+    }
+
+    @Override
+    public void saveAuth(Auth auth) {
+        AuthDO authDO = authDOConverter.dto2do(auth);
+        authMapper.saveAuth(authDO);
+        redisUtil.set(redisUtil.converModuleAndID2Key(CUR_MODULE,authDO.getId()), authDO);
     }
 
 
