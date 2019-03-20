@@ -11,7 +11,7 @@
     <groupId>com.leoli</groupId>
     <artifactId>old_classmate</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <name>old_classmate</name>
     <description>Old Classmate</description>
 
