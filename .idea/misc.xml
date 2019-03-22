@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../oauth2_server" />
     <file type="web" url="file://$PROJECT_DIR$" />
+    <file type="web" url="file://$PROJECT_DIR$/../spring_cloud_project" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -11,7 +13,17 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../oauth2_server/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_cloud_project/cloud_server/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_cloud_project/cloud_client1/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_cloud_project/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_cloud_project/service-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_cloud_project/feign_service/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../test/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="11" project-jdk-type="JavaSDK">

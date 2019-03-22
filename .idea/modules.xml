@@ -3,7 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../Oauth2Server/Oauth2Server.iml" filepath="$PROJECT_DIR$/../Oauth2Server/Oauth2Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring_cloud_project/cloud_client1/cloud_client1.iml" filepath="$PROJECT_DIR$/../spring_cloud_project/cloud_client1/cloud_client1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring_cloud_project/cloud_server/cloud_server.iml" filepath="$PROJECT_DIR$/../spring_cloud_project/cloud_server/cloud_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring_cloud_project/feign_service/feign_service.iml" filepath="$PROJECT_DIR$/../spring_cloud_project/feign_service/feign_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/old_classmate.iml" filepath="$PROJECT_DIR$/old_classmate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring_cloud_project/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/../spring_cloud_project/service-ribbon/service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring_cloud_project/spring_cloud_project.iml" filepath="$PROJECT_DIR$/../spring_cloud_project/spring_cloud_project.iml" />
     </modules>
   </component>
 </project>
