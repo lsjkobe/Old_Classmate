@@ -7,15 +7,17 @@ spring:
     password: p
     username: postgres
 
-  servlet:
-    multipart:
-      max-file-size: 100MB
-
     hikari:
       minimum-idle: 5
       idle-timeout: 180000
       maximum-pool-size: 12
       connection-timeout: 30000
+
+  servlet:
+    multipart:
+      max-file-size: 100MB
+
+
   redis:
     host: localhost
     port: 6379

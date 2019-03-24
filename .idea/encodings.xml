@@ -6,8 +6,11 @@
     <file url="file://$PROJECT_DIR$/../oauth2_server/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../spring_cloud_project" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../spring_cloud_project/cloud_client1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring_cloud_project/cloud_config_server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../spring_cloud_project/cloud_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring_cloud_project/config_client1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../spring_cloud_project/feign_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring_cloud_project/hystrix_dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../spring_cloud_project/service-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../test" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />

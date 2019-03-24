@@ -7,8 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud_client1" />
+        <module name="cloud_config_server" />
         <module name="cloud_server" />
+        <module name="config_client1" />
         <module name="feign_service" />
+        <module name="hystrix_dashboard" />
         <module name="Oauth2Server" />
         <module name="old_classmate" />
         <module name="service-ribbon" />
@@ -16,9 +19,12 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud_client1" target="11" />
+      <module name="cloud_config_server" target="11" />
       <module name="cloud_server" target="11" />
+      <module name="config_client1" target="11" />
       <module name="demo" target="1.8" />
       <module name="feign_service" target="11" />
+      <module name="hystrix_dashboard" target="11" />
       <module name="Oauth2Server" target="11" />
       <module name="old_classmate" target="11" />
       <module name="service-ribbon" target="11" />
@@ -30,9 +36,12 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Oauth2Server" options="-parameters" />
       <module name="cloud_client1" options="-parameters" />
+      <module name="cloud_config_server" options="-parameters" />
       <module name="cloud_server" options="-parameters" />
+      <module name="config_client1" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="feign_service" options="-parameters" />
+      <module name="hystrix_dashboard" options="-parameters" />
       <module name="old_classmate" options="-parameters" />
       <module name="service-ribbon" options="-parameters" />
       <module name="spring_cloud_project" options="-parameters" />

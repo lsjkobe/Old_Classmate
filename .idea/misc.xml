@@ -18,6 +18,9 @@
         <option value="$PROJECT_DIR$/../spring_cloud_project/pom.xml" />
         <option value="$PROJECT_DIR$/../spring_cloud_project/service-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/../spring_cloud_project/feign_service/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_cloud_project/cloud_config_server/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_cloud_project/config_client1/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_cloud_project/hystrix_dashboard/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

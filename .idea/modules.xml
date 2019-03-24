@@ -4,8 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../Oauth2Server/Oauth2Server.iml" filepath="$PROJECT_DIR$/../Oauth2Server/Oauth2Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/../spring_cloud_project/cloud_client1/cloud_client1.iml" filepath="$PROJECT_DIR$/../spring_cloud_project/cloud_client1/cloud_client1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring_cloud_project/cloud_config_server/cloud_config_server.iml" filepath="$PROJECT_DIR$/../spring_cloud_project/cloud_config_server/cloud_config_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/../spring_cloud_project/cloud_server/cloud_server.iml" filepath="$PROJECT_DIR$/../spring_cloud_project/cloud_server/cloud_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring_cloud_project/config_client1/config_client1.iml" filepath="$PROJECT_DIR$/../spring_cloud_project/config_client1/config_client1.iml" />
       <module fileurl="file://$PROJECT_DIR$/../spring_cloud_project/feign_service/feign_service.iml" filepath="$PROJECT_DIR$/../spring_cloud_project/feign_service/feign_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring_cloud_project/hystrix_dashboard/hystrix_dashboard.iml" filepath="$PROJECT_DIR$/../spring_cloud_project/hystrix_dashboard/hystrix_dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/old_classmate.iml" filepath="$PROJECT_DIR$/old_classmate.iml" />
       <module fileurl="file://$PROJECT_DIR$/../spring_cloud_project/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/../spring_cloud_project/service-ribbon/service-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/../spring_cloud_project/spring_cloud_project.iml" filepath="$PROJECT_DIR$/../spring_cloud_project/spring_cloud_project.iml" />
