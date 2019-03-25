@@ -3,11 +3,11 @@ package com.leoli.old_classmate.controller;
 import com.leoli.old_classmate.controller.vo.SchoolfellowVO;
 import com.leoli.old_classmate.model.Result;
 import com.leoli.old_classmate.service.SchoolfellowServer;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.Random;
 
 
 @RestController
@@ -23,6 +23,8 @@ public class SchoolfellowController {
     @Value("${server.port}")
     String port;
 
+    @ApiOperation(value = "获取校友信息", notes = "根据id获取")
+    @ApiImplicitParam(name = "id", value = "校友id", required = true, dataType = "String", paramType = "path")
     @GetMapping("/api/v1/get/schoolfellow/{id}")
     @ResponseBody
     public Result getSchoolfellow(@PathVariable String id) throws InterruptedException {
@@ -45,6 +47,8 @@ public class SchoolfellowController {
         return result;
     }
 
+    @ApiOperation(value = "创建一个校友", notes = "根据SchoolfellowVO创建")
+    @ApiImplicitParam(name = "schoolfellowVO", value = "校友信息", required = true, dataType = "SchoolfellowVO")
     @PostMapping("/api/v1/save/schoolfellow")
     public Result saveSchoolfellow(@RequestBody SchoolfellowVO schoolfellowVO) {
         schoolfellowServer.saveSchoolfellowById(schoolfellowVO);
