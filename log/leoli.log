@@ -1,64 +1,97 @@
-[INFO ] 2019-03-22 14:40:39,698 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b3acd2be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[INFO ] 2019-03-22 14:40:40,427 com.leoli.old_classmate.OldClassmateApplication - No active profile set, falling back to default profiles: default
-[INFO ] 2019-03-22 14:40:41,165 org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
-[INFO ] 2019-03-22 14:40:41,168 org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
-[INFO ] 2019-03-22 14:40:41,210 org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
-[WARN ] 2019-03-22 14:40:41,303 org.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
-[INFO ] 2019-03-22 14:40:41,480 org.springframework.cloud.context.scope.GenericScope - BeanFactory id=278282fe-dded-3e85-8f89-fa40251ec8e5
-[INFO ] 2019-03-22 14:40:41,581 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9792cfc1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[INFO ] 2019-03-22 14:40:41,643 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b3acd2be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[INFO ] 2019-03-22 14:40:41,914 org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8083 (http)
-[INFO ] 2019-03-22 14:40:41,927 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
-[INFO ] 2019-03-22 14:40:41,936 org.apache.catalina.core.StandardService - Starting service [Tomcat]
-[INFO ] 2019-03-22 14:40:41,936 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
-[INFO ] 2019-03-22 14:40:41,943 org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
-[INFO ] 2019-03-22 14:40:41,943 org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-[INFO ] 2019-03-22 14:40:41,943 org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-[INFO ] 2019-03-22 14:40:41,948 org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
-[INFO ] 2019-03-22 14:40:42,130 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 2019-03-22 14:40:42,131 org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1694 ms
-[WARN ] 2019-03-22 14:40:42,217 com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-[INFO ] 2019-03-22 14:40:42,218 com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-[INFO ] 2019-03-22 14:40:42,227 com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4aab7195
-[WARN ] 2019-03-22 14:40:43,855 com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-[INFO ] 2019-03-22 14:40:43,855 com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-[INFO ] 2019-03-22 14:40:44,032 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-[INFO ] 2019-03-22 14:40:44,779 org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration - 
-
-Using generated security password: db6ce63c-396e-430b-ad4b-709b4b5d540b
-
-[INFO ] 2019-03-22 14:40:45,176 org.springframework.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55d87b73, org.springframework.security.web.context.SecurityContextPersistenceFilter@f472245, org.springframework.security.web.header.HeaderWriterFilter@412440c1, org.springframework.security.web.authentication.logout.LogoutFilter@633c0a61, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@7f9d40b3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42ac309, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28100232, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@618e7761, org.springframework.security.web.session.SessionManagementFilter@28d7bd6b, org.springframework.security.web.access.ExceptionTranslationFilter@2184962c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@43312512]
-[INFO ] 2019-03-22 14:40:45,494 org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
-[INFO ] 2019-03-22 14:40:46,415 org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
-[INFO ] 2019-03-22 14:40:46,450 com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
-[INFO ] 2019-03-22 14:40:46,599 com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
-[INFO ] 2019-03-22 14:40:46,599 com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
-[INFO ] 2019-03-22 14:40:46,714 com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
-[INFO ] 2019-03-22 14:40:46,715 com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
-[INFO ] 2019-03-22 14:40:46,884 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-[INFO ] 2019-03-22 14:40:47,309 com.netflix.discovery.DiscoveryClient - Disable delta property : false
-[INFO ] 2019-03-22 14:40:47,309 com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
-[INFO ] 2019-03-22 14:40:47,309 com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
-[INFO ] 2019-03-22 14:40:47,310 com.netflix.discovery.DiscoveryClient - Application is null : false
-[INFO ] 2019-03-22 14:40:47,310 com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
-[INFO ] 2019-03-22 14:40:47,310 com.netflix.discovery.DiscoveryClient - Application version is -1: true
-[INFO ] 2019-03-22 14:40:47,310 com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
-[INFO ] 2019-03-22 14:40:47,454 com.netflix.discovery.DiscoveryClient - The response status is 200
-[INFO ] 2019-03-22 14:40:47,458 com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
-[INFO ] 2019-03-22 14:40:47,460 com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
-[INFO ] 2019-03-22 14:40:47,464 com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1553236847463 with initial instances count: 2
-[INFO ] 2019-03-22 14:40:47,466 org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application OLD-CLASSMATE with eureka with status UP
-[INFO ] 2019-03-22 14:40:47,466 com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1553236847466, current=UP, previous=STARTING]
-[INFO ] 2019-03-22 14:40:47,469 com.netflix.discovery.DiscoveryClient - DiscoveryClient_OLD-CLASSMATE/192.168.0.103:OLD-CLASSMATE:8083: registering service...
-[INFO ] 2019-03-22 14:40:47,483 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
-[INFO ] 2019-03-22 14:40:47,497 com.netflix.discovery.DiscoveryClient - DiscoveryClient_OLD-CLASSMATE/192.168.0.103:OLD-CLASSMATE:8083 - registration status: 204
-[INFO ] 2019-03-22 14:40:47,511 org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8083 (http) with context path ''
-[INFO ] 2019-03-22 14:40:47,512 org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration - Updating port to 8083
-[INFO ] 2019-03-22 14:40:47,514 com.leoli.old_classmate.OldClassmateApplication - Started OldClassmateApplication in 9.302 seconds (JVM running for 11.387)
-[INFO ] 2019-03-22 14:40:48,159 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[INFO ] 2019-03-22 14:40:48,159 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-[INFO ] 2019-03-22 14:40:48,172 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-[INFO ] 2019-03-22 14:40:48,172 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
-[INFO ] 2019-03-22 14:40:48,570 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-[INFO ] 2019-03-22 14:40:48,716 io.lettuce.core.EpollProvider - Starting without optional epoll library
-[INFO ] 2019-03-22 14:40:48,717 io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+[INFO ] 2019-03-26 10:15:26,269 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8a5a484a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-03-26 10:15:26,585 com.leoli.old_classmate.OldClassmateApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-26 10:15:27,444 org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 2019-03-26 10:15:27,447 org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 2019-03-26 10:15:27,486 org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+[WARN ] 2019-03-26 10:15:27,657 org.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[INFO ] 2019-03-26 10:15:27,788 org.springframework.cloud.context.scope.GenericScope - BeanFactory id=016e38ab-5ca9-33ab-8bbf-5efbefbc5e75
+[INFO ] 2019-03-26 10:15:27,873 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6e40454d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-03-26 10:15:27,957 org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8a5a484a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 2019-03-26 10:15:28,262 org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8082 (http)
+[INFO ] 2019-03-26 10:15:28,278 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+[INFO ] 2019-03-26 10:15:28,287 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-03-26 10:15:28,288 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[INFO ] 2019-03-26 10:15:28,294 org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_66\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\Java\jdk1.8.0_66\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;D:\leo.li\software\studySoftware\PostgreSQL\10\bin;D:\leo.li\software\studySoftware\PostgreSQL\10\lib;D:\leo.li\software\SysSoftware\apache-ant-1.9.9\bin;D:\leo.li\software\studySoftware\apache-maven-3.3.9\bin;C:\Users\leo.li\AppData\Local\Programs\Git\bin;C:\Users\leo.li\AppData\Local\Microsoft\WindowsApps;C:\Users\leo.li\AppData\Local\Programs\Git\cmd;.]
+[INFO ] 2019-03-26 10:15:28,452 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-03-26 10:15:28,452 org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1867 ms
+[WARN ] 2019-03-26 10:15:28,530 com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[INFO ] 2019-03-26 10:15:28,530 com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-03-26 10:15:28,538 com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@25791d40
+[INFO ] 2019-03-26 10:15:29,793 org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+[INFO ] 2019-03-26 10:15:29,870 springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[WARN ] 2019-03-26 10:15:29,877 com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[INFO ] 2019-03-26 10:15:29,877 com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[INFO ] 2019-03-26 10:15:29,980 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-03-26 10:15:30,637 org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+[INFO ] 2019-03-26 10:15:30,664 com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+[INFO ] 2019-03-26 10:15:30,771 com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+[INFO ] 2019-03-26 10:15:30,771 com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+[INFO ] 2019-03-26 10:15:30,862 com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+[INFO ] 2019-03-26 10:15:30,862 com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+[INFO ] 2019-03-26 10:15:31,127 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 10:15:31,250 com.netflix.discovery.DiscoveryClient - Disable delta property : false
+[INFO ] 2019-03-26 10:15:31,250 com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+[INFO ] 2019-03-26 10:15:31,250 com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+[INFO ] 2019-03-26 10:15:31,250 com.netflix.discovery.DiscoveryClient - Application is null : false
+[INFO ] 2019-03-26 10:15:31,250 com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+[INFO ] 2019-03-26 10:15:31,250 com.netflix.discovery.DiscoveryClient - Application version is -1: true
+[INFO ] 2019-03-26 10:15:31,250 com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+[INFO ] 2019-03-26 10:15:31,369 com.netflix.discovery.DiscoveryClient - The response status is 200
+[INFO ] 2019-03-26 10:15:31,371 com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+[INFO ] 2019-03-26 10:15:31,373 com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[INFO ] 2019-03-26 10:15:31,375 com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1553566531375 with initial instances count: 2
+[INFO ] 2019-03-26 10:15:31,376 org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application OLD-CLASSMATE with eureka with status UP
+[INFO ] 2019-03-26 10:15:31,377 com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1553566531377, current=UP, previous=STARTING]
+[INFO ] 2019-03-26 10:15:31,378 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+[INFO ] 2019-03-26 10:15:31,378 com.netflix.discovery.DiscoveryClient - DiscoveryClient_OLD-CLASSMATE/CBX-PC02.cbxsoftware.com:OLD-CLASSMATE:8082: registering service...
+[INFO ] 2019-03-26 10:15:31,398 springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+[INFO ] 2019-03-26 10:15:31,409 com.netflix.discovery.DiscoveryClient - DiscoveryClient_OLD-CLASSMATE/CBX-PC02.cbxsoftware.com:OLD-CLASSMATE:8082 - registration status: 204
+[INFO ] 2019-03-26 10:15:31,425 springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+[INFO ] 2019-03-26 10:15:31,557 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+[INFO ] 2019-03-26 10:15:31,575 org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8082 (http) with context path ''
+[INFO ] 2019-03-26 10:15:31,575 org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration - Updating port to 8082
+[INFO ] 2019-03-26 10:15:31,577 com.leoli.old_classmate.OldClassmateApplication - Started OldClassmateApplication in 5.977 seconds (JVM running for 7.038)
+[INFO ] 2019-03-26 10:15:31,727 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2019-03-26 10:15:31,727 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2019-03-26 10:15:31,729 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2019-03-26 10:15:31,735 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+[INFO ] 2019-03-26 10:15:31,812 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2019-03-26 10:15:31,899 io.lettuce.core.EpollProvider - Starting without optional epoll library
+[INFO ] 2019-03-26 10:15:31,901 io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+[INFO ] 2019-03-26 10:20:31,251 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 10:25:31,256 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 10:30:31,258 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 10:35:31,259 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 10:40:31,260 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 10:45:31,264 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 10:50:31,267 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 10:55:31,268 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 11:00:31,269 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 11:05:31,279 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 11:10:31,280 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 11:15:31,299 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 11:20:31,300 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 11:25:31,301 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 11:30:31,303 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 11:35:31,304 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 11:40:31,306 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 11:45:31,307 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 11:50:31,309 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 11:55:31,312 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 12:00:31,326 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 12:05:31,327 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 12:10:31,329 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 12:15:31,330 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 12:20:31,332 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 12:25:31,334 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 12:30:31,335 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 12:35:31,337 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 12:40:31,338 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 12:45:31,355 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 12:50:31,357 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 12:55:31,361 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 13:00:31,371 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 13:05:31,374 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 13:10:31,377 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 13:15:31,378 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+[INFO ] 2019-03-26 13:20:31,379 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

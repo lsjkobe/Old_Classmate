@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/../oauth2_server" />
+    <file type="web" url="file://$PROJECT_DIR$/../Oauth2_Server" />
     <file type="web" url="file://$PROJECT_DIR$" />
     <file type="web" url="file://$PROJECT_DIR$/../spring_cloud_project" />
+    <file type="web" url="file://$PROJECT_DIR$/../SpringCloud_Project/cloud_client1" />
+    <file type="web" url="file://$PROJECT_DIR$/../SpringCloud_Project/cloud_config_server" />
+    <file type="web" url="file://$PROJECT_DIR$/../SpringCloud_Project/cloud_server" />
+    <file type="web" url="file://$PROJECT_DIR$/../SpringCloud_Project/config_client1" />
+    <file type="web" url="file://$PROJECT_DIR$/../SpringCloud_Project/feign_service" />
+    <file type="web" url="file://$PROJECT_DIR$/../SpringCloud_Project/hystrix_dashboard" />
+    <file type="web" url="file://$PROJECT_DIR$/../SpringCloud_Project/oc_log" />
+    <file type="web" url="file://$PROJECT_DIR$/../SpringCloud_Project/rabbitmq-client" />
+    <file type="web" url="file://$PROJECT_DIR$/../SpringCloud_Project/service-ribbon" />
+    <file type="web" url="file://$PROJECT_DIR$/../SpringCloud_Project/zuul_server" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -21,6 +31,17 @@
         <option value="$PROJECT_DIR$/../spring_cloud_project/cloud_config_server/pom.xml" />
         <option value="$PROJECT_DIR$/../spring_cloud_project/config_client1/pom.xml" />
         <option value="$PROJECT_DIR$/../spring_cloud_project/hystrix_dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/zuul_server/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/service-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/hystrix_dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/feign_service/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/config_client1/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/cloud_server/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/cloud_config_server/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/cloud_client1/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/rabbitmq-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/oc_log/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -29,7 +50,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

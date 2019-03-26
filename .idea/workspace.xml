@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="330f33db-09f7-4581-af53-3a15b0a2a4da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/old_classmate_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/old_classmate_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/leoli.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/leoli.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_classmate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/old_classmate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/OldClassmateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/OldClassmateApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/SchoolfellowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/SchoolfellowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/security/oauth2/Oauth2ResourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/security/oauth2/Oauth2ResourceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oauth2_Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Oauth2_Server/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../oauth2_server/target/" />
@@ -27,6 +16,18 @@
     <ignored path="$PROJECT_DIR$/../spring_cloud_project/cloud_config_server/target/" />
     <ignored path="$PROJECT_DIR$/../spring_cloud_project/config_client1/target/" />
     <ignored path="$PROJECT_DIR$/../spring_cloud_project/hystrix_dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/../SpringCloud_Project/target/" />
+    <ignored path="$PROJECT_DIR$/../SpringCloud_Project/zuul_server/target/" />
+    <ignored path="$PROJECT_DIR$/../SpringCloud_Project/service-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/../SpringCloud_Project/hystrix_dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/../SpringCloud_Project/feign_service/target/" />
+    <ignored path="$PROJECT_DIR$/../SpringCloud_Project/config_client1/target/" />
+    <ignored path="$PROJECT_DIR$/../SpringCloud_Project/cloud_server/target/" />
+    <ignored path="$PROJECT_DIR$/../SpringCloud_Project/cloud_config_server/target/" />
+    <ignored path="$PROJECT_DIR$/../SpringCloud_Project/cloud_client1/target/" />
+    <ignored path="$PROJECT_DIR$/../SpringCloud_Project/rabbitmq-service/target/" />
+    <ignored path="$PROJECT_DIR$/../SpringCloud_Project/rabbitmq-client/target/" />
+    <ignored path="$PROJECT_DIR$/../SpringCloud_Project/oc_log/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,73 +94,26 @@
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="old_classmate" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="old_classmate: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="schoolfellow: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring_cloud_project/hystrix_dashboard/pom.xml">
+        <entry file="file://$PROJECT_DIR$/../SpringCloud_Project/rabbitmq-client/src/main/java/com/leoli/rabbitmqservice/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring_cloud_project/feign_service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="38" column="73" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring_cloud_project/feign_service/src/main/java/com/leoli/feign_service/FeignServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/SchoolfellowController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="47" selection-start-line="47" selection-end-line="51" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/OldClassmateApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="153">
+              <caret line="20" column="42" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,31 +122,98 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix/2.1.1.RELEASE/spring-cloud-netflix-hystrix-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/hystrix/EnableHystrix.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+            <state relative-caret-position="17">
+              <caret line="185" column="21" selection-start-line="185" selection-start-column="21" selection-end-line="185" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring_cloud_project/feign_service/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/../SpringCloud_Project/rabbitmq-client/src/main/java/com/leoli/rabbitmqservice/RabbitmqServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="29" selection-start-line="29" selection-end-line="33" selection-end-column="31" />
+            <state relative-caret-position="85">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../spring_cloud_project/service-ribbon/pom.xml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="51" column="73" selection-start-line="51" selection-start-column="73" selection-end-line="51" selection-end-column="73" />
+            <state relative-caret-position="146">
+              <caret line="1037" selection-start-line="1037" selection-end-line="1037" />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../SpringCloud_Project/oc_log/src/main/java/com/leoli/oc_log/configuration/RabbitReceiveConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="46" column="26" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1853#1854#0" expanded="true" />
+                <element signature="e#1908#1909#0" expanded="true" />
+                <element signature="e#1894#1895#0" expanded="true" />
+                <element signature="e#1978#1979#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.4.RELEASE/spring-amqp-2.1.4.RELEASE-sources.jar!/org/springframework/amqp/core/BindingBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="262" column="23" selection-start-line="262" selection-start-column="23" selection-end-line="262" selection-end-column="23" />
+              <folding>
+                <element signature="e#7464#7465#0" expanded="true" />
+                <element signature="e#7528#7529#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.4.RELEASE/spring-amqp-2.1.4.RELEASE-sources.jar!/org/springframework/amqp/core/Binding.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="66" column="22" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SpringCloud_Project/oc_log/src/main/java/com/leoli/oc_log/receivers/LogReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../SpringCloud_Project/rabbitmq-client/src/main/java/com/leoli/rabbitmqservice/configuration/RabbitSendConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#696#697#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#931#932#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -212,8 +233,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>configurers</find>
-      <find>allowFormAuthenticationForClients</find>
       <find>realmName</find>
       <find>resourceId</find>
       <find>readAuthentication</find>
@@ -242,35 +261,16 @@
       <find>hystrix</find>
       <find>spring-boot-starter-actuator</find>
       <find>actuator</find>
+      <find>ocExchange</find>
+      <find>arguments</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../SpringCloud_Project" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/converter/AuthDOConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/AuthMapping.xml" />
-        <option value="$PROJECT_DIR$/../oauth2_server/pom.xml" />
-        <option value="$PROJECT_DIR$/../oauth2_server/src/main/java/com/leoli/oauth2_server/jdbc/DatasourceConfig.java" />
-        <option value="$PROJECT_DIR$/../oauth2_server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/../oauth2_server/src/main/java/com/leoli/oauth2_server/ServletInitializer.java" />
-        <option value="$PROJECT_DIR$/../spring_cloud_project/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/../spring_cloud_project/src/main/java/com/leoli/spring_cloud_project/SpringCloudProjectApplication.java" />
-        <option value="$PROJECT_DIR$/../spring_cloud_project/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/../spring_cloud_project/cloud_server/pom.xml" />
-        <option value="$PROJECT_DIR$/../spring_cloud_project/cloud_server/src/main/java/com/leoli/cloud_server/CloudServerApplication.java" />
-        <option value="$PROJECT_DIR$/../spring_cloud_project/service-ribbon/src/main/java/com/leoli/serviceribbon/controller/ShoolController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/StudentInfoController.java" />
-        <option value="$PROJECT_DIR$/../spring_cloud_project/cloud_server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/../spring_cloud_project/pom.xml" />
-        <option value="$PROJECT_DIR$/../spring_cloud_project/feign_service/src/main/java/com/leoli/feign_service/controller/SchoolController.java" />
-        <option value="$PROJECT_DIR$/../spring_cloud_project/feign_service/src/main/java/com/leoli/feign_service/component/LeoConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/repositoryImpl/MybatisSchoolfellowRepository.java" />
-        <option value="$PROJECT_DIR$/../spring_cloud_project/feign_service/src/main/java/com/leoli/feign_service/services/FileService.java" />
-        <option value="$PROJECT_DIR$/../spring_cloud_project/feign_service/src/main/java/com/leoli/feign_service/fallback/HystrixFallback.java" />
-        <option value="$PROJECT_DIR$/../spring_cloud_project/feign_service/src/main/java/com/leoli/feign_service/services/SchoolService.java" />
         <option value="$PROJECT_DIR$/../spring_cloud_project/feign_service/src/main/java/com/leoli/feign_service/controller/FIleController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/FileController.java" />
         <option value="$PROJECT_DIR$/../spring_cloud_project/feign_service/src/main/java/com/leoli/feign_service/configuration/FeginInterceptor.java" />
@@ -286,7 +286,6 @@
         <option value="$PROJECT_DIR$/../spring_cloud_project/config_client1/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/../spring_cloud_project/config_client1/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/../spring_cloud_project/cloud_config_server/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/security/oauth2/Oauth2ResourceConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/SchoolfellowController.java" />
         <option value="$PROJECT_DIR$/../spring_cloud_project/hystrix_dashboard/src/main/java/com/leoli/hystrix_dashboard/HystrixDashboardApplication.java" />
@@ -299,8 +298,30 @@
         <option value="$PROJECT_DIR$/../spring_cloud_project/hystrix_dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/../spring_cloud_project/feign_service/pom.xml" />
         <option value="$PROJECT_DIR$/../spring_cloud_project/feign_service/src/main/java/com/leoli/feign_service/FeignServiceApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/OldClassmateApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/rabbitmq-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/cloud_config_server/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/config_client1/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/cloud_server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/cloud_config_server/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/cloud_config_server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/feign_service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/hystrix_dashboard/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/rabbitmq-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/service-ribbon/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/zuul_server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/cloud_client1/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/config_client1/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/rabbitmq-client/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/oc_log/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/rabbitmq-client/src/main/java/com/leoli/rabbitmqservice/configuration/RabbitSendConfiguration.java" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/rabbitmq-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/oc_log/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/rabbitmq-client/src/main/java/com/leoli/rabbitmqservice/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/oc_log/src/main/java/com/leoli/oc_log/receivers/LogReceiver.java" />
+        <option value="$PROJECT_DIR$/../SpringCloud_Project/oc_log/src/main/java/com/leoli/oc_log/configuration/RabbitReceiveConfiguration.java" />
       </list>
     </option>
   </component>
@@ -323,22 +344,30 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="service-ribbon" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud_config_server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="service-ribbon" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="rabbitmq-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rabbitmq-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring_cloud_project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -347,219 +376,340 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oauth2_server" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oauth2_Server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Old_Classmate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Old_Classmate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Old_Classmate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Old_Classmate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Old_Classmate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
               <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Old_Classmate" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="config_client1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="config_client1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="config_client1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="config_client1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="config_client1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="config_client1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="config_client1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="config_client1" type="462c0819:PsiDirectoryNode" />
               <item name="configuration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Old_Classmate" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="config_client1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="feign_service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="feign_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="feign_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="feign_service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="oc_log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="oc_log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="oc_log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="oc_log" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="oc_log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oc_log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="oc_log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oc_log" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="oc_log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oc_log" type="462c0819:PsiDirectoryNode" />
+              <item name="receivers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="oc_log" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmqservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmqservice" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmqservice" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Old_Classmate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Old_Classmate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="repositoryImpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Old_Classmate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Old_Classmate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Old_Classmate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="old_classmate" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Old_Classmate" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_cloud_project" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_cloud_project" type="462c0819:PsiDirectoryNode" />
-              <item name="config_client1" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_cloud_project" type="462c0819:PsiDirectoryNode" />
-              <item name="config_client1" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_cloud_project" type="462c0819:PsiDirectoryNode" />
-              <item name="config_client1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_cloud_project" type="462c0819:PsiDirectoryNode" />
-              <item name="config_client1" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_cloud_project" type="462c0819:PsiDirectoryNode" />
-              <item name="config_client1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="config_client1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_cloud_project" type="462c0819:PsiDirectoryNode" />
-              <item name="config_client1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="config_client1" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_cloud_project" type="462c0819:PsiDirectoryNode" />
-              <item name="config_client1" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_cloud_project" type="462c0819:PsiDirectoryNode" />
-              <item name="config_client1" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_cloud_project" type="462c0819:PsiDirectoryNode" />
-              <item name="feign_service" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul_server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_cloud_project" type="462c0819:PsiDirectoryNode" />
-              <item name="feign_service" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul_server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_cloud_project" type="462c0819:PsiDirectoryNode" />
-              <item name="feign_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_cloud_project" type="462c0819:PsiDirectoryNode" />
-              <item name="feign_service" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul_server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_cloud_project" type="462c0819:PsiDirectoryNode" />
-              <item name="feign_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="feign_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Old_Classmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_cloud_project" type="462c0819:PsiDirectoryNode" />
-              <item name="feign_service" type="462c0819:PsiDirectoryNode" />
+              <item name="old_classmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="zuul_server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -568,6 +718,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -578,19 +729,19 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553440407061" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553593996862" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../oauth2_server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringCloud_Project" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -600,13 +751,13 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.leoli.old_classmate.controller" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.leoli.oauth2_server" />
       <recent name="com.leoli.old_classmate.model.entity" />
       <recent name="com.leoli.old_classmate.configuration" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\workspace2\spring_cloud_project\cloud_config_server\src\main\resources" />
@@ -624,7 +775,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OldClassmateApplication">
+  <component name="RunManager" selected="Spring Boot.RabbitmqClientApplication">
     <configuration name="SecurityConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leoli.oauth2_server.oauth2.SecurityConfig" />
       <module name="Oauth2Server" />
@@ -694,7 +845,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CloudConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+    <configuration name="CloudConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="true">
       <module name="cloud_config_server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.leoli.cloud_config_server.CloudConfigServerApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -709,9 +860,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigClient1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ConfigClient1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="config_client1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.leoli.config_client1.ConfigClient1Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -731,8 +883,16 @@
       </method>
     </configuration>
     <configuration name="Oauth2ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="Oauth2Server" />
+      <module name="oauth2_server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.leoli.oauth2_server.Oauth2ServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OcLogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="oc_log" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leoli.oc_log.OcLogApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -746,9 +906,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RabbitmqClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbitmq-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leoli.rabbitmqservice.RabbitmqServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-ribbon" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.leoli.serviceribbon.ServiceRibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leoli.zuul_server.ZuulServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -767,6 +942,9 @@
       <item itemvalue="Spring Boot.CloudConfigServerApplication" />
       <item itemvalue="Spring Boot.ConfigClient1Application" />
       <item itemvalue="Spring Boot.HystrixDashboardApplication" />
+      <item itemvalue="Spring Boot.ZuulServerApplication" />
+      <item itemvalue="Spring Boot.RabbitmqClientApplication" />
+      <item itemvalue="Spring Boot.OcLogApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -921,7 +1099,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282831000" />
+    <option name="totallyTimeSpent" value="300734000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -933,11 +1111,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29637527" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8490196" visible="true" weight="0.30012855" />
+      <window_info id="Structure" order="1" sideWeight="0.1509804" side_tool="true" visible="true" weight="0.30012855" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
@@ -946,8 +1123,8 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23101953" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.489154" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44818303" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.31359354" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
@@ -963,17 +1140,17 @@
       <window_info anchor="bottom" id="Messages" order="16" weight="0.329718" />
       <window_info anchor="bottom" id="Database Console" order="17" weight="0.32974428" />
       <window_info anchor="bottom" id="Duplicate detector" order="18" weight="0.32974428" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.5011338" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4988662" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" sideWeight="0.4988662" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.4988662" weight="0.32969153" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" sideWeight="0.4988662" weight="0.32942432" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.4988662" weight="0.32904884" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" sideWeight="0.4988662" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5011338" side_tool="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1175,7 +1352,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/SchoolfellowController.java</url>
-          <line>47</line>
+          <line>51</line>
           <properties />
           <option name="timeStamp" value="92" />
         </line-breakpoint>
@@ -1300,12 +1477,6 @@
           <option name="timeStamp" value="169" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/SchoolfellowController.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="170" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/support/DefaultHandlerExceptionResolver.java</url>
           <line>171</line>
           <properties />
@@ -1346,12 +1517,6 @@
           <line>25</line>
           <properties />
           <option name="timeStamp" value="195" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
-          <line>1002</line>
-          <properties />
-          <option name="timeStamp" value="196" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.1.RELEASE/spring-cloud-config-server-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/EnvironmentController.java</url>
@@ -1413,6 +1578,36 @@
           <properties />
           <option name="timeStamp" value="230" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/SchoolfellowController.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/SchoolfellowController.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-client/2.1.1.RELEASE/spring-cloud-config-client-2.1.1.RELEASE.jar!/org/springframework/cloud/config/client/ConfigServerInstanceProvider.class</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../SpringCloud_Project/oc_log/src/main/java/com/leoli/oc_log/receivers/LogReceiver.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../SpringCloud_Project/rabbitmq-client/src/main/java/com/leoli/rabbitmqservice/controller/TestController.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -1427,6 +1622,21 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>this.virtualHostNameAppMap.get(virtualHostName.toUpperCase(Locale.ROOT))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>virtualHostName.toUpperCase(Locale.ROOT)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>instanceRegionChecker.getLocalRegion()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>e.getMessage()</expression-string>
         <language-id>JAVA</language-id>
@@ -1458,411 +1668,402 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>this.tokens.get(0)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>nChars % 2</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>message.hasBody()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/cloud_config_server/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/../SpringCloud_Project/cloud_client1/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="48" />
+        <state relative-caret-position="204">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/cloud_config_server/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/../SpringCloud_Project/config_client1/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="199">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-client/2.1.1.RELEASE/spring-cloud-config-client-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/config/client/ConfigServicePropertySourceLocator.java">
+    <entry file="file://$PROJECT_DIR$/../SpringCloud_Project/config_client1/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="99" column="37" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
+        <state relative-caret-position="-85">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/configuration/PropertyConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="31" column="21" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/config_client1/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/config_client1/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/config_client1/src/main/java/com/leoli/config_client1/ConfigClient1Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix/2.1.1.RELEASE/spring-cloud-netflix-hystrix-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/hystrix/HystrixMetricsProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix/2.1.1.RELEASE/spring-cloud-netflix-hystrix-2.1.1.RELEASE.jar!/org/springframework/cloud/netflix/hystrix/HystrixMetricsProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/amqp/RabbitProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11322">
-          <caret line="846" column="24" selection-start-line="846" selection-start-column="24" selection-end-line="846" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.1.0/feign-core-10.1.0.jar!/feign/Retryer.class">
+    <entry file="file://$PROJECT_DIR$/../SpringCloud_Project/rabbitmq-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringCloud_Project/oc_log/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringCloud_Project/oc_log/src/main/java/com/leoli/oc_log/OcLogApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.4.RELEASE/spring-amqp-2.1.4.RELEASE.jar!/org/springframework/amqp/core/AcknowledgeMode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.4.RELEASE/spring-amqp-2.1.4.RELEASE-sources.jar!/org/springframework/amqp/core/AcknowledgeMode.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.4.3/amqp-client-5.4.3.jar!/com/rabbitmq/client/impl/AMQChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="379" selection-start-line="379" selection-end-line="379" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.1.4.RELEASE/spring-rabbit-2.1.4.RELEASE.jar!/org/springframework/amqp/rabbit/listener/BlockingQueueConsumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="492" selection-start-line="492" selection-end-line="492" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.4.3/amqp-client-5.4.3-sources.jar!/com/rabbitmq/client/impl/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.4.3/amqp-client-5.4.3-sources.jar!/com/rabbitmq/client/impl/AMQImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="2006" selection-start-line="2006" selection-end-line="2006" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.4.3/amqp-client-5.4.3-sources.jar!/com/rabbitmq/client/impl/ShutdownNotifierComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.4.3/amqp-client-5.4.3-sources.jar!/com/rabbitmq/client/AMQP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="805" selection-start-line="805" selection-end-line="805" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.1.4.RELEASE/spring-rabbit-2.1.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/listener/BlockingQueueConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="688" selection-start-line="688" selection-end-line="688" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.1.4.RELEASE/spring-rabbit-2.1.4.RELEASE-sources.jar!/org/springframework/amqp/rabbit/connection/CachingConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="1109" selection-start-line="1109" selection-end-line="1109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.4.3/amqp-client-5.4.3-sources.jar!/com/rabbitmq/client/impl/ChannelN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="1005" selection-start-line="1005" selection-end-line="1005" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.4.3/amqp-client-5.4.3-sources.jar!/com/rabbitmq/utility/BlockingCell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.4.3/amqp-client-5.4.3-sources.jar!/com/rabbitmq/utility/ValueOrException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.4.3/amqp-client-5.4.3-sources.jar!/com/rabbitmq/utility/BlockingValueOrException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.4.3/amqp-client-5.4.3-sources.jar!/com/rabbitmq/client/impl/AMQChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="287" selection-start-line="287" selection-end-line="287" />
           <folding>
-            <element signature="e#0#2445#0" expanded="true" />
+            <element signature="e#4497#4498#0" expanded="true" />
+            <element signature="e#4534#4535#0" expanded="true" />
+            <element signature="e#16766#16767#0" expanded="true" />
+            <element signature="e#16812#16813#0" expanded="true" />
+            <element signature="e#21644#21645#0" expanded="true" />
+            <element signature="e#21681#21682#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.1.0/feign-core-10.1.0-sources.jar!/feign/Retryer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.1.5.RELEASE/spring-messaging-5.1.5.RELEASE.jar!/org/springframework/messaging/handler/invocation/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="137">
+          <caret line="96" column="13" lean-forward="true" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.1.RELEASE/spring-cloud-openfeign-core-2.1.1.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClientProperties.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.1.5.RELEASE/spring-messaging-5.1.5.RELEASE-sources.jar!/org/springframework/messaging/handler/invocation/InvocableHandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+        <state relative-caret-position="154">
+          <caret line="154" column="21" lean-forward="true" selection-start-line="154" selection-start-column="21" selection-end-line="154" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.4.RELEASE/spring-amqp-2.1.4.RELEASE-sources.jar!/org/springframework/amqp/core/MessageProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1564">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.4.RELEASE/spring-amqp-2.1.4.RELEASE-sources.jar!/org/springframework/amqp/core/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.4.3/amqp-client-5.4.3-sources.jar!/com/rabbitmq/client/impl/Environment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/env/Environment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/env/ConfigurableEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE.jar!/org/springframework/core/env/AbstractEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE-sources.jar!/org/springframework/core/env/Environment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="111" column="12" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE-sources.jar!/org/springframework/core/env/ConfigurableEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/context/ConfigurableWebEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE.jar!/org/springframework/boot/web/reactive/context/ConfigurableReactiveWebEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE-sources.jar!/org/springframework/core/env/AbstractEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="54" column="41" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.5.RELEASE/spring-core-5.1.5.RELEASE-sources.jar!/org/springframework/core/env/StandardEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.4.RELEASE/spring-amqp-2.1.4.RELEASE-sources.jar!/org/springframework/amqp/core/Exchange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.4.RELEASE/spring-amqp-2.1.4.RELEASE-sources.jar!/org/springframework/amqp/core/AbstractExchange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
           <folding>
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
+            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/feign_service/src/main/java/com/leoli/feign_service/services/FileService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.4.RELEASE/spring-amqp-2.1.4.RELEASE-sources.jar!/org/springframework/amqp/core/DirectExchange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="157">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="true" />
+            <element signature="e#1454#1455#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/feign_service/src/main/java/com/leoli/feign_service/fallback/HystrixFallback.java">
+    <entry file="file://$PROJECT_DIR$/../SpringCloud_Project/rabbitmq-client/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.1.RELEASE/spring-cloud-openfeign-core-2.1.1.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
+    <entry file="file://$PROJECT_DIR$/../SpringCloud_Project/oc_log/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringCloud_Project/rabbitmq-client/src/main/java/com/leoli/rabbitmqservice/ServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringCloud_Project/rabbitmq-client/src/main/java/com/leoli/rabbitmqservice/RabbitmqServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringCloud_Project/rabbitmq-client/src/main/java/com/leoli/rabbitmqservice/configuration/RabbitSendConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
-          <caret line="122" column="81" selection-start-line="122" selection-start-column="74" selection-end-line="122" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0-sources.jar!/com/zaxxer/hikari/HikariDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/AvailabilityFilteringRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="67" column="28" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/repositoryImpl/MybatisStudentInfoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/security/oauth2/Oauth2ResourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.23/snakeyaml-1.23-sources.jar!/org/yaml/snakeyaml/Yaml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="536" selection-start-line="536" selection-end-line="536" />
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
           <folding>
-            <element signature="e#19388#19389#0" expanded="true" />
-            <element signature="e#19448#19449#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.5.RELEASE/spring-security-oauth2-2.3.5.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/authentication/OAuth2AuthenticationProcessingFilter.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.4.RELEASE/spring-amqp-2.1.4.RELEASE-sources.jar!/org/springframework/amqp/core/Binding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        <state relative-caret-position="101">
+          <caret line="66" column="22" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.5.RELEASE/spring-security-oauth2-2.3.5.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/authentication/OAuth2AuthenticationManager.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="126">
+          <caret line="103" column="37" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="185" column="21" selection-start-line="185" selection-start-column="21" selection-end-line="185" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringCloud_Project/oc_log/src/main/java/com/leoli/oc_log/receivers/LogReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.4.RELEASE/spring-amqp-2.1.4.RELEASE-sources.jar!/org/springframework/amqp/core/BindingBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="262" column="23" selection-start-line="262" selection-start-column="23" selection-end-line="262" selection-end-column="23" />
+          <folding>
+            <element signature="e#7464#7465#0" expanded="true" />
+            <element signature="e#7528#7529#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="146">
           <caret line="1037" selection-start-line="1037" selection-end-line="1037" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/serviceImpl/SchoolfellowServerImpl.java">
+    <entry file="file://$PROJECT_DIR$/../SpringCloud_Project/rabbitmq-client/src/main/java/com/leoli/rabbitmqservice/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/dao/repositoryImpl/MybatisSchoolfellowRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/cloud_config_server/src/main/java/com/leoli/cloud_config_server/ServletInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/cloud_config_server/src/main/java/com/leoli/cloud_config_server/CloudConfigServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/feign_service/src/main/java/com/leoli/feign_service/controller/FIleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/feign_service/src/main/java/com/leoli/feign_service/controller/SchoolController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding>
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/feign_service/src/main/java/com/leoli/feign_service/configuration/FeginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/feign_service/src/main/java/com/leoli/feign_service/services/SchoolService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator-autoconfigure/2.1.3.RELEASE/spring-boot-actuator-autoconfigure-2.1.3.RELEASE-sources.jar!/org/springframework/boot/actuate/autoconfigure/endpoint/web/WebEndpointProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
-          <folding>
-            <element signature="e#2610#2611#0" expanded="true" />
-            <element signature="e#2641#2642#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.1.RELEASE/spring-cloud-openfeign-core-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClientProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
-          <folding>
-            <element signature="e#1839#1840#0" expanded="true" />
-            <element signature="e#1866#1867#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/hystrix_dashboard/src/main/java/com/leoli/hystrix_dashboard/HystrixDashboardApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/hystrix_dashboard/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix/2.1.1.RELEASE/spring-cloud-netflix-hystrix-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/hystrix/HystrixCircuitBreakerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/service-ribbon/src/main/java/com/leoli/serviceribbon/ServiceRibbonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/service-ribbon/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/service-ribbon/src/main/java/com/leoli/serviceribbon/controller/ShoolController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/service-ribbon/src/main/java/com/leoli/serviceribbon/services/Info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/hystrix_dashboard/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/service-ribbon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="51" column="73" selection-start-line="51" selection-start-column="73" selection-end-line="51" selection-end-column="73" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/feign_service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="38" column="73" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/feign_service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="29" selection-start-line="29" selection-end-line="33" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spring_cloud_project/feign_service/src/main/java/com/leoli/feign_service/FeignServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/controller/SchoolfellowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="47" selection-start-line="47" selection-end-line="51" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-hystrix/2.1.1.RELEASE/spring-cloud-netflix-hystrix-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/hystrix/EnableHystrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leoli/old_classmate/OldClassmateApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="153">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SpringCloud_Project/oc_log/src/main/java/com/leoli/oc_log/configuration/RabbitReceiveConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1853#1854#0" expanded="true" />
+            <element signature="e#1908#1909#0" expanded="true" />
+            <element signature="e#1894#1895#0" expanded="true" />
+            <element signature="e#1978#1979#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1909,7 +2110,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>11</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1921,11 +2122,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|spring_cloud_project</last-edited>
+          <last-edited>old_classmate</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -1,5 +1,5 @@
 server:
-  port: 8083
+  port: 8500
 
 spring:
   datasource:
@@ -37,7 +37,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8091/eureka/
+      defaultZone: http://localhost:8600/eureka/
 
 mybatis:
   mapper-locations: classpath:mapping/*.xml
