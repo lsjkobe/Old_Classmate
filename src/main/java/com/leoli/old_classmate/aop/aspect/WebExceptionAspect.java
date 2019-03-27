@@ -6,14 +6,13 @@ package com.leoli.old_classmate.aop.aspect;// Copyright (c) 1998-2019 Core Solut
 // CNT.5.0.1 : 2019-XX-XX, leo.li, creation
 // ============================================================================
 
-import com.leoli.old_classmate.model.Result;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.*;
-
-import java.util.Arrays;
+import org.aspectj.lang.annotation.AfterThrowing;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
 
 @Aspect
 public class WebExceptionAspect {
