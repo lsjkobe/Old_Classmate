@@ -77,3 +77,6 @@ create table authorities
 	authority varchar(10)
 );
 
+alter table authorities alter column id type varchar(50) using id::varchar(50);
+
+
